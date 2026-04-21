@@ -22,7 +22,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install google-api-python-client youtube-transcript-api requests
+        run: pip install google-api-python-client youtube-transcript-api requests youtranscript
 
       - name: Run tracker script
         env:
