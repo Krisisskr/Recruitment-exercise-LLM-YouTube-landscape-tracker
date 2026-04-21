@@ -16,4 +16,15 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-       
+        run: pip install -r requirements.txt
+
+      - name: Run tracker script
+        env:
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python main.py
+
+      - name: Commit & push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: '🤖 Auto-update: LLM landscape table'
