@@ -14,7 +14,6 @@ OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 
 # OpenRouter API settings
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
-# OpenRouter's smart router for free models
 OPENROUTER_MODEL = "openrouter/free"
 
 # YouTube API service
@@ -30,6 +29,7 @@ CHANNEL_HANDLES = [
 ]
 
 MAX_VIDEOS_PER_CHANNEL = 5
+TRANSCRIPT_RETRIES = 2  # Number of retries for transcript fetching
 
 
 def get_channel_id_from_handle(handle):
@@ -87,23 +87,38 @@ def get_recent_videos(channel_id, max_results=MAX_VIDEOS_PER_CHANNEL):
 
 
 def get_transcript(video_id):
+    """Fetch transcript with retries."""
     if not SUPADATA_API_KEY:
         return "[Supadata API key missing]"
+
     headers = {"x-api-key": SUPADATA_API_KEY}
     params = {"videoId": video_id, "lang": "en"}
-    try:
-        response = requests.get("https://api.supadata.ai/v1/youtube/transcript",
-                                headers=headers, params=params, timeout=30)
-        response.raise_for_status()
-        data = response.json()
-        if "content" in data:
-            full_text = " ".join([item.get("text", "") for item in data["content"]])
-            return full_text if full_text else "[Transcript empty]"
-        else:
-            return "[No transcript available]"
-    except Exception as e:
-        print(f"      Transcript error: {e}")
-        return "[Transcript unavailable]"
+
+    for attempt in range(TRANSCRIPT_RETRIES + 1):
+        try:
+            response = requests.get(
+                "https://api.supadata.ai/v1/youtube/transcript",
+                headers=headers,
+                params=params,
+                timeout=45
+            )
+            if response.status_code == 200:
+                data = response.json()
+                if "content" in data:
+                    full_text = " ".join([item.get("text", "") for item in data["content"]])
+                    return full_text if full_text else "[Transcript empty]"
+                else:
+                    return "[No transcript available]"
+            else:
+                print(f"      Transcript API status {response.status_code}, retry {attempt+1}/{TRANSCRIPT_RETRIES}")
+                if attempt < TRANSCRIPT_RETRIES:
+                    time.sleep(3)
+        except Exception as e:
+            print(f"      Transcript error (attempt {attempt+1}): {e}")
+            if attempt < TRANSCRIPT_RETRIES:
+                time.sleep(3)
+
+    return "[Transcript unavailable]"
 
 
 def generate_summary_with_openrouter(text):
@@ -116,7 +131,7 @@ def generate_summary_with_openrouter(text):
     headers = {
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
         "Content-Type": "application/json",
-        "HTTP-Referer": "https://github.com/YOUR_USERNAME/llm-youtube-tracker", # Replace with your repo URL
+        "HTTP-Referer": "https://github.com/YOUR_USERNAME/llm-youtube-tracker",  # Replace with your repo
         "X-Title": "LLM YouTube Tracker"
     }
 
@@ -131,7 +146,7 @@ def generate_summary_with_openrouter(text):
     }
 
     try:
-        response = requests.post(OPENROUTER_API_URL, headers=headers, json=payload, timeout=30)
+        response = requests.post(OPENROUTER_API_URL, headers=headers, json=payload, timeout=60)
         if response.status_code == 200:
             result = response.json()
             summary = result["choices"][0]["message"]["content"].strip()
@@ -153,17 +168,21 @@ def main():
         if not channel_id:
             continue
         videos = get_recent_videos(channel_id)
+        print(f"  Found {len(videos)} videos")
         for video in videos:
-            print(f"  Fetching transcript: {video['title']}")
+            print(f"  Fetching transcript: {video['title'][:50]}...")
             transcript = get_transcript(video["video_id"])
             video["transcript_preview"] = transcript[:300] + "..." if len(transcript) > 300 else transcript
 
-            print(f"  Generating summary via OpenRouter...")
-            summary = generate_summary_with_openrouter(transcript)
-            video["ai_summary"] = summary
+            if transcript.startswith("["):
+                video["ai_summary"] = "[No transcript available]"
+            else:
+                print(f"  Generating summary via OpenRouter...")
+                summary = generate_summary_with_openrouter(transcript)
+                video["ai_summary"] = summary
 
             all_videos.append(video)
-            time.sleep(1) # Be polite to the API
+            time.sleep(1)  # Be polite
 
     output_data = {
         "last_updated": datetime.utcnow().isoformat() + "Z",
