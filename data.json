@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-21T12:30:30.040941Z",
+  "last_updated": "2026-04-21T12:35:08.705159Z",
   "videos": [
     {
       "video_id": "Sk9tvyRSCgY",
@@ -29,159 +29,6 @@
       "ai_summary": "[No transcript available]"
     },
     {
-      "video_id": "ZQAz_HrUq68",
-      "title": "NVIDIA’s New AI Just Changed Everything",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-04-07T17:38:09Z",
-      "url": "https://www.youtube.com/watch?v=ZQAz_HrUq68",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "7YVrb3-ABYE",
-      "title": "Google’s New AI Just Broke My Brain",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-04-01T14:21:33Z",
-      "url": "https://www.youtube.com/watch?v=7YVrb3-ABYE",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "2K0tie1pZ5M",
-      "title": "I Built an App Using Only English… Thanks to Base44 🤯",
-      "channel_name": "AI Explained",
-      "published_at": "2025-12-04T20:40:13Z",
-      "url": "https://www.youtube.com/watch?v=2K0tie1pZ5M",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "49AkHYiikoA",
-      "title": "I Tried Zoom AI So You Don’t Have To",
-      "channel_name": "AI Explained",
-      "published_at": "2025-12-04T01:03:16Z",
-      "url": "https://www.youtube.com/watch?v=49AkHYiikoA",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "gIM5FODuCgc",
-      "title": "AI Agents. Work Ends. Everything Changes.",
-      "channel_name": "AI Explained",
-      "published_at": "2024-12-07T17:36:46Z",
-      "url": "https://www.youtube.com/watch?v=gIM5FODuCgc",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "YK91qoee648",
-      "title": "AI Generated This #7 - Midjourney 5",
-      "channel_name": "AI Explained",
-      "published_at": "2023-04-21T22:00:13Z",
-      "url": "https://www.youtube.com/watch?v=YK91qoee648",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "KvEEv9nRre4",
-      "title": "AI Painted This #2 - Midjourney 5",
-      "channel_name": "AI Explained",
-      "published_at": "2023-04-21T07:00:12Z",
-      "url": "https://www.youtube.com/watch?v=KvEEv9nRre4",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "FGnAeUXRZ4E",
-      "title": "Training a Unitree G1 to Walk w/ Reinforcement Learning",
-      "channel_name": "sentdex",
-      "published_at": "2025-12-19T14:40:46Z",
-      "url": "https://www.youtube.com/watch?v=FGnAeUXRZ4E",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "Ah0-l0HZwLA",
-      "title": "Unitree G1 Security Disaster",
-      "channel_name": "sentdex",
-      "published_at": "2025-09-30T20:50:15Z",
-      "url": "https://www.youtube.com/watch?v=Ah0-l0HZwLA",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "eRPSRSGiAA8",
-      "title": "Testing VLMs and LLMs for robotics w/ the Jetson Thor devkit",
-      "channel_name": "sentdex",
-      "published_at": "2025-08-30T15:21:01Z",
-      "url": "https://www.youtube.com/watch?v=eRPSRSGiAA8",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "wiIUF9pIDYw",
-      "title": "Reinforcement learning with Unitree G1 humanoid - Dev w/ G1 P.5",
-      "channel_name": "sentdex",
-      "published_at": "2025-07-25T15:33:58Z",
-      "url": "https://www.youtube.com/watch?v=wiIUF9pIDYw",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "cmnJhOWp2z4",
-      "title": "A bigger brain for the Unitree G1- Dev w/ G1 Humanoid P.4",
-      "channel_name": "sentdex",
-      "published_at": "2025-05-30T15:34:05Z",
-      "url": "https://www.youtube.com/watch?v=cmnJhOWp2z4",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "iKx3gAODybU",
-      "title": "Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495",
-      "channel_name": "Lex Fridman",
-      "published_at": "2026-04-09T17:35:20Z",
-      "url": "https://www.youtube.com/watch?v=iKx3gAODybU",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "vif8NQcjVf0",
-      "title": "Jensen Huang: NVIDIA - The $4 Trillion Company & the AI Revolution | Lex Fridman Podcast #494",
-      "channel_name": "Lex Fridman",
-      "published_at": "2026-03-23T16:24:14Z",
-      "url": "https://www.youtube.com/watch?v=vif8NQcjVf0",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "H9rF1CSSh-w",
-      "title": "Jeff Kaplan: World of Warcraft, Overwatch, Blizzard, and Future of Gaming | Lex Fridman Podcast #493",
-      "channel_name": "Lex Fridman",
-      "published_at": "2026-03-11T20:21:39Z",
-      "url": "https://www.youtube.com/watch?v=H9rF1CSSh-w",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "SHlrUAkkWI0",
-      "title": "Lex trains w/ Khabib Nurmagomedov | Exclusive Footage at UFC PI",
-      "channel_name": "Lex Fridman",
-      "published_at": "2026-03-03T12:30:21Z",
-      "url": "https://www.youtube.com/watch?v=SHlrUAkkWI0",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "1SJiTwbSI58",
-      "title": "Rick Beato: Greatest Guitarists of All Time, History & Future of Music | Lex Fridman Podcast #492",
-      "channel_name": "Lex Fridman",
-      "published_at": "2026-03-01T03:37:44Z",
-      "url": "https://www.youtube.com/watch?v=1SJiTwbSI58",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
       "video_id": "xHi8PUIVyoo",
       "title": "I BUILT A FULLY AUTOMATIC MANSPLAINER",
       "channel_name": "Yannic Kilcher",
@@ -205,24 +52,6 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2025-12-28T12:41:54Z",
       "url": "https://www.youtube.com/watch?v=DNajvkqfobY",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "taCVT5vDAk0",
-      "title": "TiDAR: Think in Diffusion, Talk in Autoregression (Paper Analysis)",
-      "channel_name": "Yannic Kilcher",
-      "published_at": "2025-12-27T14:33:29Z",
-      "url": "https://www.youtube.com/watch?v=taCVT5vDAk0",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "v67plFw1nMw",
-      "title": "Titans: Learning to Memorize at Test Time (Paper Analysis)",
-      "channel_name": "Yannic Kilcher",
-      "published_at": "2025-12-14T16:22:15Z",
-      "url": "https://www.youtube.com/watch?v=v67plFw1nMw",
       "transcript_preview": "[Transcript unavailable]",
       "ai_summary": "[No transcript available]"
     }
