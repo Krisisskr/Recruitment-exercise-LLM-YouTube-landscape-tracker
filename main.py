@@ -22,9 +22,9 @@ youtube = build("youtube", "v3", developerKey=YOUTUBE_API_KEY)
 # List of YouTube channel IDs to track
 # Replace these with the actual channel IDs you want to monitor
 CHANNEL_IDS = [
-    "UCbfYPyITQ-7l4upoX8nvctg",  # Two Minute Papers
-    "UCdSj8p1pHmW_hE8T3jHFT9A",  # Matt Wolfe
-    "UCNJ1Ymd5yFuUPW21JxO2u3g",  # AI Explained
+    "UCbfYPyITQ-7l4upoX8nvctg",   # Two Minute Papers
+    "UCwkk7FQb5eBd5qJdM1bYxZg",   # Matt Wolfe (corrected ID)
+    "UCNJ1Ymd5yFuUPW21JxO2u3g",   # AI Explained
 ]
 
 # How many recent videos to fetch per channel
