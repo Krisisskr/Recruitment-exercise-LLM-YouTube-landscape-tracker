@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-21T11:59:56.158927Z",
+  "last_updated": "2026-04-21T12:17:23.671027Z",
   "videos": [
     {
       "video_id": "Sk9tvyRSCgY",
@@ -8,7 +8,7 @@
       "published_at": "2026-04-16T17:44:48Z",
       "url": "https://www.youtube.com/watch?v=Sk9tvyRSCgY",
       "transcript_preview": "Google DeepMind gave an amazing gift to humanity. \nAnd it is full of surprises. Here’s why. Today,   we are living in the age of AI where these \nsmart assistants and agents can do things   we could only dream of 10 years ago. But. \nMany of these solutions are proprietary,   require a subscription, a...",
-      "ai_summary": "[Summary API error]"
+      "ai_summary": "Google DeepMind released Gemma 4, a free and open family of AI models that can run on devices with limited resources, including phones and even a Nintendo Switch. The smallest Gemma model requires only a few gigabytes of memory and can perform tasks like offline translation and image classification. Surprisingly, the larger 31B model beats some models that are 10 times larger, despite being a dense model, not a mixture of experts."
     },
     {
       "video_id": "Ersv1ogj7Jo",
@@ -17,7 +17,7 @@
       "published_at": "2026-04-14T14:50:00Z",
       "url": "https://www.youtube.com/watch?v=Ersv1ogj7Jo",
       "transcript_preview": "Look, we have some work to do. We have a 245-page \npaper from Anthropic about their new AI system,   Mythos. The best cure for insomnia. \nMwah! Now, we are scientists here,   we want to experiment with code, models, review \nindependent benchmarks for these systems to make   sure they actually work i...",
-      "ai_summary": "[Summary API error]"
+      "ai_summary": "[Summary generation failed]"
     },
     {
       "video_id": "mFSFvKquXwI",
@@ -26,7 +26,7 @@
       "published_at": "2026-04-11T16:23:48Z",
       "url": "https://www.youtube.com/watch?v=mFSFvKquXwI",
       "transcript_preview": "Dear Fellow Scholars, this is Two Minute \nPapers with Dr. Károly Zsolnai-Fehér. We’ve been trying out doing the videos with a \ncamera. I really enjoyed it, and your feedback   was also absolutely incredible. I’ve never \nseen anything like this. So many comments,   thank you so much for the kind word...",
-      "ai_summary": "[Summary API error]"
+      "ai_summary": "This video discusses how robots can learn to be helpful and safe by training in a simulated environment, such as a video game, before being deployed in the real world. The speaker explains that while simulations are useful, they are not perfect substitutes for reality, and that training robots using real-world video data can be challenging due to the differences between human and robot bodies. The video then introduces a new approach called DreamDojo, which uses 44,000 hours of human video data to train robots, and outlines four key ideas for making this approach work, including allowing the AI to interpret the video data and learn what information is important."
     },
     {
       "video_id": "ZQAz_HrUq68",
@@ -35,7 +35,7 @@
       "published_at": "2026-04-07T17:38:09Z",
       "url": "https://www.youtube.com/watch?v=ZQAz_HrUq68",
       "transcript_preview": "Remember that most AI systems are proprietary, \nwe have to pay a subscription for them,   and no one knows how they work or \nwhat data they were trained on? Well, now hold on to your papers Fellow \nScholars and check out this incredible work,   and when I first saw it, my jaw hit the floor. \nThey ab...",
-      "ai_summary": "[Summary API error]"
+      "ai_summary": "The transcript celebrates the release of Nemotron 3 Super, an open‑source AI assistant that matches the performance of high‑cost closed models while being freely available and fully documented. With 25 trillion tokens of training data and 120 billion parameters, it outperforms many open models and offers a new NVFP4 precision format that speeds inference up to seven times without sacrificing accuracy. The speaker highlights the transparency of the research paper and the practical benefits of the model’s efficient, carefully‑rounded computations."
     },
     {
       "video_id": "7YVrb3-ABYE",
@@ -43,8 +43,8 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-04-01T14:21:33Z",
       "url": "https://www.youtube.com/watch?v=7YVrb3-ABYE",
-      "transcript_preview": "Google made a huge announcement about their new \nmethod that lets us run AI techniques cheaper.  The news took the world by storm. \nThis came at the best possible time,   because we have a worldwide memory \nshortage. So the prices for capable   laptops and GPUs and anything that can run \nthese AI sy...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "2K0tie1pZ5M",
@@ -52,8 +52,8 @@
       "channel_name": "AI Explained",
       "published_at": "2025-12-04T20:40:13Z",
       "url": "https://www.youtube.com/watch?v=2K0tie1pZ5M",
-      "transcript_preview": "Today's AI app review is this one of bass44.com. So bass44.com is just a AI natural language app that I came across this week and it caught my attention because of how flexible it is and just how many apps you can build on it. So I haven't signed up for it yet. I have not used it yet. I'm going to b...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "49AkHYiikoA",
@@ -61,8 +61,8 @@
       "channel_name": "AI Explained",
       "published_at": "2025-12-04T01:03:16Z",
       "url": "https://www.youtube.com/watch?v=49AkHYiikoA",
-      "transcript_preview": "Okay, great. So, for today's quick AI tool review is going to be the Zoom AI companion. That's what Zoom calls it. I know most people don't really use Zoom much these days, right? So, I randomly found myself opening the app and I came across this AI companion. And one of the nice things that I liked...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "gIM5FODuCgc",
@@ -70,8 +70,8 @@
       "channel_name": "AI Explained",
       "published_at": "2024-12-07T17:36:46Z",
       "url": "https://www.youtube.com/watch?v=gIM5FODuCgc",
-      "transcript_preview": "welcome to another deep dive today our focus is AI agents oo sounds exciting it is it's a topic that even those deep in Tech are still trying to you know wrap their heads around it's true this technology is evolving so rapidly it is it's no wonder people are scrambling to try to understand it all ye...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "YK91qoee648",
@@ -79,8 +79,8 @@
       "channel_name": "AI Explained",
       "published_at": "2023-04-21T22:00:13Z",
       "url": "https://www.youtube.com/watch?v=YK91qoee648",
-      "transcript_preview": "I mean most of the movies and TV featuring AI they don't describe it in quite the way it's likely to actually take place but I think you just have to consider like even in the benign scenario where um AI if AI is much smarter than a person um what what do we do what what is that what job do we have ...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "KvEEv9nRre4",
@@ -88,7 +88,7 @@
       "channel_name": "AI Explained",
       "published_at": "2023-04-21T07:00:12Z",
       "url": "https://www.youtube.com/watch?v=KvEEv9nRre4",
-      "transcript_preview": "[Music] it's going to come faster than anyone appreciates I think it's with each passing year the sophistication of of computer intelligence is is growing dramatically I mean I really think we're on an exponential uh Improvement path of artificial intelligence and the number of smart humans that are...",
+      "transcript_preview": "[Transcript unavailable]",
       "ai_summary": "[No transcript available]"
     },
     {
@@ -97,8 +97,8 @@
       "channel_name": "sentdex",
       "published_at": "2025-12-19T14:40:46Z",
       "url": "https://www.youtube.com/watch?v=FGnAeUXRZ4E",
-      "transcript_preview": "Hello Jeff. Oh my god. [snorts] Oh my god, Jeff. Oh my god. He's working. He's working. Oh my god. He's kind of working. He's kind of working. Yes. Oh my god. Oh, this is actually damp or uh not damp but loose. Yo, he's on his own. He is balanced on his own. Yes. Look. Yeah. [snorts] Oh my god. Pull...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "Ah0-l0HZwLA",
@@ -106,8 +106,8 @@
       "channel_name": "sentdex",
       "published_at": "2025-09-30T20:50:15Z",
       "url": "https://www.youtube.com/watch?v=Ah0-l0HZwLA",
-      "transcript_preview": "What is going on everybody? Welcome to a bit of a bad day for Jeff the G1 and sadly all the G1s, all the H1s, all the GOTs, the B2s, the R1's, the entire fleet of Unitry robots. Over the last couple weeks, there's been rumblings in the community about several security flaws that have led up to the h...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "eRPSRSGiAA8",
@@ -115,8 +115,8 @@
       "channel_name": "sentdex",
       "published_at": "2025-08-30T15:21:01Z",
       "url": "https://www.youtube.com/watch?v=eRPSRSGiAA8",
-      "transcript_preview": "What is going on everybody and welcome to something I have been waiting for and that is the Jetson Thor devkit. Now if you're like me when you heard about this thing when it was announced you heard one spec and one spec only and that was the 128 gigabytes of video memory on this thing and then you k...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "wiIUF9pIDYw",
@@ -124,8 +124,8 @@
       "channel_name": "sentdex",
       "published_at": "2025-07-25T15:33:58Z",
       "url": "https://www.youtube.com/watch?v=wiIUF9pIDYw",
-      "transcript_preview": "What is going on everybody? I know it's been a minute since a Jeff the G1 update. I've just been doing other things, but I did finally get around to it and actually the delay probably saved me a little bit. I'll talk about that later. But uh in this video I have a reinforcement learning policy. I us...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "cmnJhOWp2z4",
@@ -133,8 +133,8 @@
       "channel_name": "sentdex",
       "published_at": "2025-05-30T15:34:05Z",
       "url": "https://www.youtube.com/watch?v=cmnJhOWp2z4",
-      "transcript_preview": "Welcome everyone to the next installment of the Jeff the G1 series. Here we have object detection using natural language and a VLM in attempt to essentially map the objects that we're tracking and their location in basically XY space and then based on that XY space we're extrapolating the Z delta ba...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "iKx3gAODybU",
@@ -142,8 +142,8 @@
       "channel_name": "Lex Fridman",
       "published_at": "2026-04-09T17:35:20Z",
       "url": "https://www.youtube.com/watch?v=iKx3gAODybU",
-      "transcript_preview": "- The Viking longships could\naverage 70 to 120 miles a day. They could hit a place, raid\nit, drag off whoever they wanted, and get away before\nyou could get your army there. That's just absolutely terrifying. - What do you think it felt\nlike for Alcuin and the monks to see the Viking\nships on the ho...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "vif8NQcjVf0",
@@ -151,8 +151,8 @@
       "channel_name": "Lex Fridman",
       "published_at": "2026-03-23T16:24:14Z",
       "url": "https://www.youtube.com/watch?v=vif8NQcjVf0",
-      "transcript_preview": "- The following is a conversation\nwith Jensen Huang, CEO of NVIDIA, one of the most\nimportant and influential companies in the history\nof human civilization. NVIDIA is the engine powering\nthe AI revolution, and a lot of its success can be directly\nattributed to Jensen's sheer force of will and his m...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "H9rF1CSSh-w",
@@ -160,8 +160,8 @@
       "channel_name": "Lex Fridman",
       "published_at": "2026-03-11T20:21:39Z",
       "url": "https://www.youtube.com/watch?v=H9rF1CSSh-w",
-      "transcript_preview": "- There's three types of\nfun, fun for the player, fun for the designer, and\nfun for the computer. - Is it PvP? - It's all PvP. In fact, Rust is\nthe most PvP thing in all of PvP. - Well, I don't know what that means, but... - Rust players know what that\nmeans. My whole career and my family are thanks...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "SHlrUAkkWI0",
@@ -169,8 +169,8 @@
       "channel_name": "Lex Fridman",
       "published_at": "2026-03-03T12:30:21Z",
       "url": "https://www.youtube.com/watch?v=SHlrUAkkWI0",
-      "transcript_preview": "All right, we're training with Habib today. One of the greatest fighters of all time. A great human being. It's honestly unbelievable that I have the honor to be able to train with these guys today. I trained with a team yesterday as well. Feel a bit beat up. I uh actually before this texted George ...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "1SJiTwbSI58",
@@ -178,8 +178,8 @@
       "channel_name": "Lex Fridman",
       "published_at": "2026-03-01T03:37:44Z",
       "url": "https://www.youtube.com/watch?v=1SJiTwbSI58",
-      "transcript_preview": "- The following is a conversation\nwith Rick Beato, legendary music educator, interviewer,\nproducer, songwriter, and a true multi-instrument musician, playing guitar,\nbass, cello, and piano. Rick, with his incredible YouTube channel,\ncelebrates great musicians and musical ideas, and helps\nmillions of...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "xHi8PUIVyoo",
@@ -187,8 +187,8 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2026-03-06T22:07:33Z",
       "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo",
-      "transcript_preview": "Hello. Have you ever been in a situation where you're overhearing conversation and it dawns on you this person well intended is wrong about something minuscule but important to you and duty. The universe compels you to tell them why they're wrong. Watch this. I recycle plastic because it's good for ...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "Dr6jw-WAd9E",
@@ -196,8 +196,8 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2025-12-29T03:44:20Z",
       "url": "https://www.youtube.com/watch?v=Dr6jw-WAd9E",
-      "transcript_preview": "Cool. Hello everyone. Um, as is tradition, uh, we're doing a Minecraft live stream for the holidays. Um, because it's fun. So, uh, yeah, keep in mind I am absolutely terrible at Minecraft. This is, so this is not a like, uh, a demonstration of skill or anything like this. Um, it's just, it's just fu...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "DNajvkqfobY",
@@ -214,8 +214,8 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2025-12-27T14:33:29Z",
       "url": "https://www.youtube.com/watch?v=taCVT5vDAk0",
-      "transcript_preview": "Hello. Today we're looking at tidar thinking diffusion talk and auto regression by researchers at Nvidia. And this is a really cool paper because it effectively um makes good you or it observes that we don't have full GPU utilization during auto reagive large language model inference um because it's...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "v67plFw1nMw",
@@ -223,8 +223,8 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2025-12-14T16:22:15Z",
       "url": "https://www.youtube.com/watch?v=v67plFw1nMw",
-      "transcript_preview": "Hello. Today we're going to look at Titans learning to memorize at test time. This is a paper by Google research and has been pushed as part of their Nurips publications. So there's a blog post about it and people posted on social media about it and um I have to admit I just fell for the marketing. ...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     }
   ]
 }
