@@ -115,7 +115,7 @@ def generate_summary(text):
     headers = {
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
         "Content-Type": "application/json",
-        "HTTP-Referer": "https://github.com/YOUR_USERNAME/llm-youtube-tracker",  # Replace with your repo
+        "HTTP-Referer": "https://github.com/Krisisskr/llm-youtube-tracker",  
         "X-Title": "LLM YouTube Tracker"
     }
     payload = {
