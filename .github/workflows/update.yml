@@ -20,15 +20,13 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install system dependencies
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg
-
       - name: Install Python dependencies
-        run: pip install google-api-python-client requests yt-dlp
+        run: pip install google-api-python-client requests
 
       - name: Run tracker script
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          SUPADATA_API_KEY: ${{ secrets.SUPADATA_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python main.py
 
