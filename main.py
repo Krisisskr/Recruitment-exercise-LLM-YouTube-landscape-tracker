@@ -1,9 +1,6 @@
 import os
 import json
 import requests
-import subprocess
-import tempfile
-import glob
 from datetime import datetime
 from googleapiclient.discovery import build
 
@@ -11,16 +8,18 @@ from googleapiclient.discovery import build
 # Configuration
 # -------------------------------
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY")
+SUPADATA_API_KEY = os.environ.get("SUPADATA_API_KEY")
 HF_API_TOKEN = os.environ.get("HF_API_TOKEN")
 
-# Hugging Face Inference API settings
+# API endpoints
+SUPADATA_TRANSCRIPT_URL = "https://api.supadata.ai/v1/youtube/transcript"
 HF_SUMMARIZATION_MODEL = "facebook/bart-large-cnn"
 HF_API_URL = f"https://api-inference.huggingface.co/models/{HF_SUMMARIZATION_MODEL}"
 
 # YouTube API service
 youtube = build("youtube", "v3", developerKey=YOUTUBE_API_KEY)
 
-# List of YouTube channel handles (the part after '@' in the URL)
+# List of YouTube channel handles
 CHANNEL_HANDLES = [
     "TwoMinutePapers",
     "AIExplained",
@@ -34,10 +33,7 @@ MAX_VIDEOS_PER_CHANNEL = 5
 
 
 def get_channel_id_from_handle(handle):
-    """
-    Convert a YouTube @handle to a channel ID.
-    Returns None if the handle cannot be found.
-    """
+    """Convert a YouTube @handle to a channel ID."""
     try:
         request = youtube.channels().list(
             part="id",
@@ -55,9 +51,7 @@ def get_channel_id_from_handle(handle):
 
 
 def get_uploads_playlist_id(channel_id):
-    """
-    Retrieve the uploads playlist ID for a given YouTube channel.
-    """
+    """Retrieve the uploads playlist ID for a given YouTube channel."""
     try:
         request = youtube.channels().list(
             part="contentDetails",
@@ -74,9 +68,7 @@ def get_uploads_playlist_id(channel_id):
 
 
 def get_recent_videos(channel_id, max_results=MAX_VIDEOS_PER_CHANNEL):
-    """
-    Fetch the most recent videos from a channel's uploads playlist.
-    """
+    """Fetch the most recent videos from a channel's uploads playlist."""
     playlist_id = get_uploads_playlist_id(channel_id)
     if not playlist_id:
         return []
@@ -106,71 +98,38 @@ def get_recent_videos(channel_id, max_results=MAX_VIDEOS_PER_CHANNEL):
     return videos
 
 
-def get_transcript_with_ytdlp(video_id):
-    """
-    Use yt-dlp to download subtitles (English) for a YouTube video.
-    Returns the transcript text or None if unavailable.
-    """
-    url = f"https://www.youtube.com/watch?v={video_id}"
-    with tempfile.TemporaryDirectory() as tmpdir:
-        cmd = [
-            "yt-dlp",
-            "--skip-download",
-            "--write-subs",
-            "--write-auto-subs",
-            "--sub-lang", "en",
-            "--sub-format", "vtt",
-            "--output", f"{tmpdir}/subs",
-            url
-        ]
-        try:
-            subprocess.run(cmd, check=True, capture_output=True, timeout=60)
-        except subprocess.TimeoutExpired:
-            print("      yt-dlp timed out")
-            return None
-        except subprocess.CalledProcessError:
-            return None
-
-        vtt_files = glob.glob(os.path.join(tmpdir, "*.vtt"))
-        if not vtt_files:
-            return None
-
-        try:
-            with open(vtt_files[0], "r", encoding="utf-8") as f:
-                content = f.read()
-            lines = content.splitlines()
-            text_lines = []
-            for line in lines:
-                line = line.strip()
-                if not line or line == "WEBVTT" or "-->" in line:
-                    continue
-                if line.isdigit():
-                    continue
-                text_lines.append(line)
-            transcript = " ".join(text_lines)
-            if transcript.strip():
-                return transcript[:4000]
-        except Exception as e:
-            print(f"      Error parsing VTT: {e}")
-            return None
-    return None
-
-
 def get_transcript(video_id):
-    """
-    Retrieve English transcript using yt-dlp.
-    """
-    transcript = get_transcript_with_ytdlp(video_id)
-    if transcript:
-        return transcript
-    return "[Transcript unavailable]"
+    """Retrieve English transcript using Supadata API."""
+    if not SUPADATA_API_KEY:
+        return "[Supadata API key missing]"
+
+    headers = {
+        "x-api-key": SUPADATA_API_KEY
+    }
+    params = {
+        "videoId": video_id,
+        "lang": "en"
+    }
+
+    try:
+        response = requests.get(SUPADATA_TRANSCRIPT_URL, headers=headers, params=params, timeout=30)
+        response.raise_for_status()
+        data = response.json()
+        
+        # Extract transcript text
+        if "content" in data:
+            full_text = " ".join([item.get("text", "") for item in data["content"]])
+            return full_text[:4000] if full_text else "[Transcript empty]"
+        else:
+            return "[No transcript available]"
+    except Exception as e:
+        print(f"      Transcript fetch error: {e}")
+        return "[Transcript unavailable]"
 
 
 def generate_summary(text):
-    """
-    Call Hugging Face Inference API to generate a concise summary.
-    """
-    if not text or text == "[Transcript unavailable]":
+    """Call Hugging Face Inference API to generate a concise summary."""
+    if not text or text.startswith("[") or text == "[Transcript empty]":
         return "[No transcript available]"
 
     headers = {
