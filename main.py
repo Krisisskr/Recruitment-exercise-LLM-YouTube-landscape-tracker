@@ -4,12 +4,13 @@ import requests
 import time
 from datetime import datetime
 from googleapiclient.discovery import build
+from youtube_transcript_api import YouTubeTranscriptApi
 
 # -------------------------------
 # Configuration
 # -------------------------------
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY")
-SUPADATA_API_KEY = os.environ.get("SUPADATA_API_KEY")
+SUPADATA_API_KEY = os.environ.get("SUPADATA_API_KEY", "")  # optional backup
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 
 # OpenRouter API settings
@@ -29,7 +30,6 @@ CHANNEL_HANDLES = [
 ]
 
 MAX_VIDEOS_PER_CHANNEL = 5
-TRANSCRIPT_RETRIES = 2  # Number of retries for transcript fetching
 
 
 def get_channel_id_from_handle(handle):
@@ -86,37 +86,58 @@ def get_recent_videos(channel_id, max_results=MAX_VIDEOS_PER_CHANNEL):
     return videos
 
 
-def get_transcript(video_id):
-    """Fetch transcript with retries."""
-    if not SUPADATA_API_KEY:
-        return "[Supadata API key missing]"
+def get_transcript_yt_api(video_id):
+    """
+    Primary method: free youtube-transcript-api (no API key needed).
+    """
+    try:
+        transcript_list = YouTubeTranscriptApi.get_transcript(video_id, languages=['en'])
+        full_text = " ".join([item['text'] for item in transcript_list])
+        return full_text if full_text else "[Transcript empty]"
+    except Exception as e:
+        print(f"      YT transcript error: {e}")
+        return None
 
+
+def get_transcript_supadata(video_id):
+    """
+    Backup method: Supadata API (requires API key).
+    """
+    if not SUPADATA_API_KEY:
+        return None
     headers = {"x-api-key": SUPADATA_API_KEY}
     params = {"videoId": video_id, "lang": "en"}
+    try:
+        response = requests.get(
+            "https://api.supadata.ai/v1/youtube/transcript",
+            headers=headers,
+            params=params,
+            timeout=30
+        )
+        if response.status_code == 200:
+            data = response.json()
+            if "content" in data:
+                full_text = " ".join([item.get("text", "") for item in data["content"]])
+                return full_text if full_text else "[Transcript empty]"
+        return None
+    except Exception as e:
+        print(f"      Supadata error: {e}")
+        return None
 
-    for attempt in range(TRANSCRIPT_RETRIES + 1):
-        try:
-            response = requests.get(
-                "https://api.supadata.ai/v1/youtube/transcript",
-                headers=headers,
-                params=params,
-                timeout=45
-            )
-            if response.status_code == 200:
-                data = response.json()
-                if "content" in data:
-                    full_text = " ".join([item.get("text", "") for item in data["content"]])
-                    return full_text if full_text else "[Transcript empty]"
-                else:
-                    return "[No transcript available]"
-            else:
-                print(f"      Transcript API status {response.status_code}, retry {attempt+1}/{TRANSCRIPT_RETRIES}")
-                if attempt < TRANSCRIPT_RETRIES:
-                    time.sleep(3)
-        except Exception as e:
-            print(f"      Transcript error (attempt {attempt+1}): {e}")
-            if attempt < TRANSCRIPT_RETRIES:
-                time.sleep(3)
+
+def get_transcript(video_id):
+    """
+    Try youtube-transcript-api first, then fallback to Supadata.
+    """
+    # Try primary method
+    transcript = get_transcript_yt_api(video_id)
+    if transcript:
+        return transcript
+
+    # Try backup method
+    transcript = get_transcript_supadata(video_id)
+    if transcript:
+        return transcript
 
     return "[Transcript unavailable]"
 
@@ -131,7 +152,7 @@ def generate_summary_with_openrouter(text):
     headers = {
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
         "Content-Type": "application/json",
-        "HTTP-Referer": "https://github.com/YOUR_USERNAME/llm-youtube-tracker",  # Replace with your repo
+        "HTTP-Referer": "https://github.com/YOUR_USERNAME/llm-youtube-tracker",  # Replace with your repo URL
         "X-Title": "LLM YouTube Tracker"
     }
 
@@ -182,7 +203,7 @@ def main():
                 video["ai_summary"] = summary
 
             all_videos.append(video)
-            time.sleep(1)  # Be polite
+            time.sleep(1)  # Be polite to APIs
 
     output_data = {
         "last_updated": datetime.utcnow().isoformat() + "Z",
