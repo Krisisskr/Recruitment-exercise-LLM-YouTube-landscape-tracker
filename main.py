@@ -152,7 +152,7 @@ def generate_summary_with_openrouter(text):
     headers = {
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
         "Content-Type": "application/json",
-        "HTTP-Referer": "https://github.com/YOUR_USERNAME/llm-youtube-tracker",  # Replace with your repo URL
+        "HTTP-Referer": "https://github.com/Krisisskr/llm-youtube-tracker",  # Replace with your repo URL
         "X-Title": "LLM YouTube Tracker"
     }
 
