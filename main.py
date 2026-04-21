@@ -1,6 +1,7 @@
 import os
 import json
 import requests
+import time
 from datetime import datetime
 from googleapiclient.discovery import build
 
@@ -116,10 +117,9 @@ def get_transcript(video_id):
         response.raise_for_status()
         data = response.json()
         
-        # Extract transcript text
         if "content" in data:
             full_text = " ".join([item.get("text", "") for item in data["content"]])
-            return full_text[:4000] if full_text else "[Transcript empty]"
+            return full_text if full_text else "[Transcript empty]"
         else:
             return "[No transcript available]"
     except Exception as e:
@@ -127,17 +127,23 @@ def get_transcript(video_id):
         return "[Transcript unavailable]"
 
 
-def generate_summary(text):
-    """Call Hugging Face Inference API to generate a concise summary."""
+def generate_summary(text, max_retries=2):
+    """
+    Call Hugging Face Inference API with retry logic and proper text truncation.
+    Bart model has a 1024 token limit (~4000 chars max input).
+    """
     if not text or text.startswith("[") or text == "[Transcript empty]":
         return "[No transcript available]"
+
+    # Truncate text to safe length for BART (approx 1024 tokens)
+    truncated_text = text[:3800]
 
     headers = {
         "Authorization": f"Bearer {HF_API_TOKEN}",
         "Content-Type": "application/json"
     }
     payload = {
-        "inputs": text,
+        "inputs": truncated_text,
         "parameters": {
             "max_length": 150,
             "min_length": 30,
@@ -145,17 +151,35 @@ def generate_summary(text):
         }
     }
 
-    try:
-        response = requests.post(HF_API_URL, headers=headers, json=payload, timeout=30)
-        response.raise_for_status()
-        result = response.json()
-        if isinstance(result, list) and len(result) > 0:
-            return result[0].get("summary_text", "[Summary generation failed]")
-        else:
+    for attempt in range(max_retries + 1):
+        try:
+            response = requests.post(HF_API_URL, headers=headers, json=payload, timeout=45)
+            response.raise_for_status()
+            result = response.json()
+            if isinstance(result, list) and len(result) > 0:
+                summary = result[0].get("summary_text", "")
+                if summary:
+                    return summary
+            # If empty summary, retry
+            if attempt < max_retries:
+                time.sleep(3)
+                continue
+            return "[Empty summary returned]"
+        except requests.exceptions.Timeout:
+            if attempt < max_retries:
+                print(f"      Timeout, retrying ({attempt+1}/{max_retries})...")
+                time.sleep(5)
+                continue
+            return "[Summary timeout]"
+        except Exception as e:
+            if attempt < max_retries:
+                print(f"      Error, retrying ({attempt+1}/{max_retries}): {e}")
+                time.sleep(3)
+                continue
+            print(f"    Summarization error: {e}")
             return "[Summary generation failed]"
-    except Exception as e:
-        print(f"    Summarization error: {e}")
-        return "[Summary generation failed]"
+    
+    return "[Summary generation failed]"
 
 
 def main():
@@ -184,6 +208,8 @@ def main():
             video["ai_summary"] = summary
 
             all_videos.append(video)
+            # Small delay between requests to avoid rate limiting
+            time.sleep(1)
 
     output_data = {
         "last_updated": datetime.utcnow().isoformat() + "Z",
