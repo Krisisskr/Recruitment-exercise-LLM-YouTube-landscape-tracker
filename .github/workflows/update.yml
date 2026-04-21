@@ -2,8 +2,9 @@ name: Daily YouTube Tracker Update
 
 on:
   schedule:
+    # Runs every day at 08:00 UTC
     - cron: '0 8 * * *'
-  workflow_dispatch:
+  workflow_dispatch:  # Allows manual trigger from Actions tab
 
 jobs:
   update-data:
@@ -21,7 +22,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: pip install google-api-python-client requests
 
       - name: Run tracker script
