@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-21T12:17:23.671027Z",
+  "last_updated": "2026-04-21T12:25:28.994852Z",
   "videos": [
     {
       "video_id": "Sk9tvyRSCgY",
@@ -7,8 +7,8 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-04-16T17:44:48Z",
       "url": "https://www.youtube.com/watch?v=Sk9tvyRSCgY",
-      "transcript_preview": "Google DeepMind gave an amazing gift to humanity. \nAnd it is full of surprises. Here’s why. Today,   we are living in the age of AI where these \nsmart assistants and agents can do things   we could only dream of 10 years ago. But. \nMany of these solutions are proprietary,   require a subscription, a...",
-      "ai_summary": "Google DeepMind released Gemma 4, a free and open family of AI models that can run on devices with limited resources, including phones and even a Nintendo Switch. The smallest Gemma model requires only a few gigabytes of memory and can perform tasks like offline translation and image classification. Surprisingly, the larger 31B model beats some models that are 10 times larger, despite being a dense model, not a mixture of experts."
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "Ersv1ogj7Jo",
@@ -16,8 +16,8 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-04-14T14:50:00Z",
       "url": "https://www.youtube.com/watch?v=Ersv1ogj7Jo",
-      "transcript_preview": "Look, we have some work to do. We have a 245-page \npaper from Anthropic about their new AI system,   Mythos. The best cure for insomnia. \nMwah! Now, we are scientists here,   we want to experiment with code, models, review \nindependent benchmarks for these systems to make   sure they actually work i...",
-      "ai_summary": "[Summary generation failed]"
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "mFSFvKquXwI",
@@ -25,8 +25,8 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-04-11T16:23:48Z",
       "url": "https://www.youtube.com/watch?v=mFSFvKquXwI",
-      "transcript_preview": "Dear Fellow Scholars, this is Two Minute \nPapers with Dr. Károly Zsolnai-Fehér. We’ve been trying out doing the videos with a \ncamera. I really enjoyed it, and your feedback   was also absolutely incredible. I’ve never \nseen anything like this. So many comments,   thank you so much for the kind word...",
-      "ai_summary": "This video discusses how robots can learn to be helpful and safe by training in a simulated environment, such as a video game, before being deployed in the real world. The speaker explains that while simulations are useful, they are not perfect substitutes for reality, and that training robots using real-world video data can be challenging due to the differences between human and robot bodies. The video then introduces a new approach called DreamDojo, which uses 44,000 hours of human video data to train robots, and outlines four key ideas for making this approach work, including allowing the AI to interpret the video data and learn what information is important."
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "ZQAz_HrUq68",
@@ -34,8 +34,8 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-04-07T17:38:09Z",
       "url": "https://www.youtube.com/watch?v=ZQAz_HrUq68",
-      "transcript_preview": "Remember that most AI systems are proprietary, \nwe have to pay a subscription for them,   and no one knows how they work or \nwhat data they were trained on? Well, now hold on to your papers Fellow \nScholars and check out this incredible work,   and when I first saw it, my jaw hit the floor. \nThey ab...",
-      "ai_summary": "The transcript celebrates the release of Nemotron 3 Super, an open‑source AI assistant that matches the performance of high‑cost closed models while being freely available and fully documented. With 25 trillion tokens of training data and 120 billion parameters, it outperforms many open models and offers a new NVFP4 precision format that speeds inference up to seven times without sacrificing accuracy. The speaker highlights the transparency of the research paper and the practical benefits of the model’s efficient, carefully‑rounded computations."
+      "transcript_preview": "[Transcript unavailable]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "7YVrb3-ABYE",
