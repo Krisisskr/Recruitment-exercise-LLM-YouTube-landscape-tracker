@@ -12,8 +12,8 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY")
 SUPADATA_API_KEY = os.environ.get("SUPADATA_API_KEY")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 
-# GitHub Models Inference API (free, no IP block)
-GITHUB_MODEL = "Llama-3.2-3B-Instruct"  # or "Phi-3.5-mini-instruct"
+# GitHub Models Inference API (Free, no IP block)
+GITHUB_MODEL = "gpt-4o-mini"
 GITHUB_INFERENCE_URL = "https://models.inference.ai.azure.com/chat/completions"
 
 # YouTube API service
@@ -106,15 +106,9 @@ def get_transcript(video_id):
 
 
 def generate_summary_with_github_model(text):
-    """Use GitHub Models free inference (Llama 3.2) to summarize."""
+    """Use GitHub Models (GPT-4o-mini) to summarize."""
     if not text or text.startswith("["):
         return "[No transcript available]"
-
-    if not GITHUB_TOKEN:
-        return "[GitHub token missing]"
-
-    # Truncate text to avoid token limits (approx 2000 chars)
-    truncated = text[:2000]
 
     headers = {
         "Authorization": f"Bearer {GITHUB_TOKEN}",
@@ -124,7 +118,7 @@ def generate_summary_with_github_model(text):
         "model": GITHUB_MODEL,
         "messages": [
             {"role": "system", "content": "You are a helpful assistant that summarizes YouTube video transcripts in 2-3 concise English sentences. Focus on the main topic and key takeaways."},
-            {"role": "user", "content": f"Summarize the following transcript:\n\n{truncated}"}
+            {"role": "user", "content": f"Summarize the following transcript:\n\n{text[:3000]}"}
         ],
         "max_tokens": 150,
         "temperature": 0.3
@@ -163,7 +157,7 @@ def main():
             video["ai_summary"] = summary
 
             all_videos.append(video)
-            time.sleep(1)  # Polite delay
+            time.sleep(1)
 
     output_data = {
         "last_updated": datetime.utcnow().isoformat() + "Z",
