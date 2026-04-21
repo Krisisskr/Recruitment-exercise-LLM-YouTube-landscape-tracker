@@ -34,14 +34,21 @@ MAX_VIDEOS_PER_CHANNEL = 5
 def get_uploads_playlist_id(channel_id):
     """
     Retrieve the uploads playlist ID for a given YouTube channel.
+    Returns None if the channel is not found or quota is exceeded.
     """
-    request = youtube.channels().list(
-        part="contentDetails",
-        id=channel_id
-    )
-    response = request.execute()
-    return response["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
-
+    try:
+        request = youtube.channels().list(
+            part="contentDetails",
+            id=channel_id
+        )
+        response = request.execute()
+        if not response.get("items"):
+            print(f"    Warning: No channel found for ID {channel_id}. Skipping.")
+            return None
+        return response["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
+    except Exception as e:
+        print(f"    Error fetching channel {channel_id}: {e}")
+        return None
 
 def get_recent_videos(channel_id, max_results=MAX_VIDEOS_PER_CHANNEL):
     """
@@ -118,21 +125,18 @@ def generate_summary(text):
         print(f"Summarization error: {e}")
         return "[Summary generation failed]"
 
-
 def main():
-    """
-    Main execution function:
-    1. Fetch videos from all tracked channels
-    2. Retrieve transcripts
-    3. Generate summaries
-    4. Save data to data.json
-    """
     all_videos = []
 
     for channel_id in CHANNEL_IDS:
         print(f"Processing channel: {channel_id}")
-        videos = get_recent_videos(channel_id)
+        videos = get_recent_videos(channel_id)   # this function already checks for None playlist
+        if not videos:
+            print(f"  Skipping channel {channel_id} due to errors.")
+            continue
+
         for video in videos:
+            # ... 原有的处理逻辑保持不变 ...
             print(f"  Fetching transcript for: {video['title']}")
             transcript = get_transcript(video["video_id"])
             video["transcript_preview"] = transcript[:300] + "..." if len(transcript) > 300 else transcript
