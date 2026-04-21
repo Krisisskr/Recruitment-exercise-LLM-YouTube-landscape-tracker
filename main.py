@@ -10,11 +10,12 @@ from googleapiclient.discovery import build
 # -------------------------------
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY")
 SUPADATA_API_KEY = os.environ.get("SUPADATA_API_KEY")
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
+OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 
-# GitHub Models Inference API (Free, no IP block)
-GITHUB_MODEL = "gpt-4o-mini"
-GITHUB_INFERENCE_URL = "https://models.inference.ai.azure.com/chat/completions"
+# OpenRouter API settings
+OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
+# OpenRouter's smart router for free models
+OPENROUTER_MODEL = "openrouter/free"
 
 # YouTube API service
 youtube = build("youtube", "v3", developerKey=YOUTUBE_API_KEY)
@@ -105,17 +106,22 @@ def get_transcript(video_id):
         return "[Transcript unavailable]"
 
 
-def generate_summary_with_github_model(text):
-    """Use GitHub Models (GPT-4o-mini) to summarize."""
+def generate_summary_with_openrouter(text):
+    """Use OpenRouter's free model router to summarize."""
     if not text or text.startswith("["):
         return "[No transcript available]"
+    if not OPENROUTER_API_KEY:
+        return "[OpenRouter API key missing]"
 
     headers = {
-        "Authorization": f"Bearer {GITHUB_TOKEN}",
-        "Content-Type": "application/json"
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+        "Content-Type": "application/json",
+        "HTTP-Referer": "https://github.com/YOUR_USERNAME/llm-youtube-tracker", # Replace with your repo URL
+        "X-Title": "LLM YouTube Tracker"
     }
+
     payload = {
-        "model": GITHUB_MODEL,
+        "model": OPENROUTER_MODEL,
         "messages": [
             {"role": "system", "content": "You are a helpful assistant that summarizes YouTube video transcripts in 2-3 concise English sentences. Focus on the main topic and key takeaways."},
             {"role": "user", "content": f"Summarize the following transcript:\n\n{text[:3000]}"}
@@ -125,13 +131,13 @@ def generate_summary_with_github_model(text):
     }
 
     try:
-        response = requests.post(GITHUB_INFERENCE_URL, headers=headers, json=payload, timeout=30)
+        response = requests.post(OPENROUTER_API_URL, headers=headers, json=payload, timeout=30)
         if response.status_code == 200:
             result = response.json()
             summary = result["choices"][0]["message"]["content"].strip()
             return summary
         else:
-            print(f"      GitHub Model error: {response.status_code} - {response.text}")
+            print(f"      OpenRouter error: {response.status_code} - {response.text}")
             return "[Summary API error]"
     except Exception as e:
         print(f"      Summary exception: {e}")
@@ -152,12 +158,12 @@ def main():
             transcript = get_transcript(video["video_id"])
             video["transcript_preview"] = transcript[:300] + "..." if len(transcript) > 300 else transcript
 
-            print(f"  Generating summary via GitHub Models...")
-            summary = generate_summary_with_github_model(transcript)
+            print(f"  Generating summary via OpenRouter...")
+            summary = generate_summary_with_openrouter(transcript)
             video["ai_summary"] = summary
 
             all_videos.append(video)
-            time.sleep(1)
+            time.sleep(1) # Be polite to the API
 
     output_data = {
         "last_updated": datetime.utcnow().isoformat() + "Z",
