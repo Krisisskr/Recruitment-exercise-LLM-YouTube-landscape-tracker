@@ -1,35 +1,31 @@
 import os
 import json
+import subprocess
+import tempfile
+import glob
 import requests
 import time
 from datetime import datetime
 from googleapiclient.discovery import build
-from youtube_transcript_api import YouTubeTranscriptApi
 
 # -------------------------------
 # Configuration
 # -------------------------------
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY")
-SUPADATA_API_KEY = os.environ.get("SUPADATA_API_KEY", "")  # optional backup
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 
-# OpenRouter API settings
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 OPENROUTER_MODEL = "openrouter/free"
 
-# YouTube API service
 youtube = build("youtube", "v3", developerKey=YOUTUBE_API_KEY)
 
-# List of YouTube channel handles
+# Handles of channels that reliably have English captions
 CHANNEL_HANDLES = [
-    "TwoMinutePapers",
-    "AIExplained",
-    "sentdex",
-    "lexfridman",
-    "YannicKilcher",
+    "TwoMinutePapers",   # Always has manual English captions
+    "YannicKilcher",     # Paper explanation videos usually have captions
 ]
 
-MAX_VIDEOS_PER_CHANNEL = 5
+MAX_VIDEOS_PER_CHANNEL = 3   # Keep it small to stay within free API limits
 
 
 def get_channel_id_from_handle(handle):
@@ -37,12 +33,8 @@ def get_channel_id_from_handle(handle):
         request = youtube.channels().list(part="id", forHandle=handle)
         response = request.execute()
         items = response.get("items", [])
-        if not items:
-            print(f"    Warning: No channel found for @{handle}")
-            return None
-        return items[0]["id"]
-    except Exception as e:
-        print(f"    Error: {e}")
+        return items[0]["id"] if items else None
+    except Exception:
         return None
 
 
@@ -50,11 +42,8 @@ def get_uploads_playlist_id(channel_id):
     try:
         request = youtube.channels().list(part="contentDetails", id=channel_id)
         response = request.execute()
-        if not response.get("items"):
-            return None
         return response["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
-    except Exception as e:
-        print(f"    Error: {e}")
+    except Exception:
         return None
 
 
@@ -69,9 +58,9 @@ def get_recent_videos(channel_id, max_results=MAX_VIDEOS_PER_CHANNEL):
             maxResults=max_results
         )
         response = request.execute()
-    except Exception as e:
-        print(f"    Error: {e}")
+    except Exception:
         return []
+
     videos = []
     for item in response.get("items", []):
         snippet = item["snippet"]
@@ -86,94 +75,75 @@ def get_recent_videos(channel_id, max_results=MAX_VIDEOS_PER_CHANNEL):
     return videos
 
 
-def get_transcript_yt_api(video_id):
+def get_transcript_ytdlp(video_id):
     """
-    Primary method: free youtube-transcript-api (no API key needed).
+    Use yt-dlp to download English subtitles. Returns transcript text or None.
     """
-    try:
-        transcript_list = YouTubeTranscriptApi.get_transcript(video_id, languages=['en'])
-        full_text = " ".join([item['text'] for item in transcript_list])
-        return full_text if full_text else "[Transcript empty]"
-    except Exception as e:
-        print(f"      YT transcript error: {e}")
-        return None
+    url = f"https://www.youtube.com/watch?v={video_id}"
+    with tempfile.TemporaryDirectory() as tmpdir:
+        cmd = [
+            "yt-dlp",
+            "--skip-download",
+            "--write-subs",
+            "--write-auto-subs",
+            "--sub-lang", "en",
+            "--sub-format", "vtt",
+            "--output", f"{tmpdir}/subs",
+            "--no-warnings",
+            url
+        ]
+        try:
+            subprocess.run(cmd, check=True, capture_output=True, timeout=60)
+        except (subprocess.TimeoutExpired, subprocess.CalledProcessError):
+            return None
+
+        vtt_files = glob.glob(os.path.join(tmpdir, "*.vtt"))
+        if not vtt_files:
+            return None
+
+        try:
+            with open(vtt_files[0], "r", encoding="utf-8") as f:
+                content = f.read()
+            # Simple VTT parsing
+            lines = content.splitlines()
+            text_lines = []
+            for line in lines:
+                line = line.strip()
+                if not line or line == "WEBVTT" or "-->" in line or line.isdigit():
+                    continue
+                text_lines.append(line)
+            transcript = " ".join(text_lines)
+            return transcript[:4000] if transcript else None
+        except Exception:
+            return None
 
 
-def get_transcript_supadata(video_id):
-    """
-    Backup method: Supadata API (requires API key).
-    """
-    if not SUPADATA_API_KEY:
-        return None
-    headers = {"x-api-key": SUPADATA_API_KEY}
-    params = {"videoId": video_id, "lang": "en"}
-    try:
-        response = requests.get(
-            "https://api.supadata.ai/v1/youtube/transcript",
-            headers=headers,
-            params=params,
-            timeout=30
-        )
-        if response.status_code == 200:
-            data = response.json()
-            if "content" in data:
-                full_text = " ".join([item.get("text", "") for item in data["content"]])
-                return full_text if full_text else "[Transcript empty]"
-        return None
-    except Exception as e:
-        print(f"      Supadata error: {e}")
-        return None
-
-
-def get_transcript(video_id):
-    """
-    Try youtube-transcript-api first, then fallback to Supadata.
-    """
-    # Try primary method
-    transcript = get_transcript_yt_api(video_id)
-    if transcript:
-        return transcript
-
-    # Try backup method
-    transcript = get_transcript_supadata(video_id)
-    if transcript:
-        return transcript
-
-    return "[Transcript unavailable]"
-
-
-def generate_summary_with_openrouter(text):
-    """Use OpenRouter's free model router to summarize."""
-    if not text or text.startswith("["):
+def generate_summary_openrouter(text):
+    if not text:
         return "[No transcript available]"
-    if not OPENROUTER_API_KEY:
-        return "[OpenRouter API key missing]"
 
     headers = {
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
         "Content-Type": "application/json",
-        "HTTP-Referer": "https://github.com/Krisisskr/llm-youtube-tracker",  # Replace with your repo URL
+        "HTTP-Referer": "https://github.com/YOUR_USERNAME/llm-youtube-tracker",
         "X-Title": "LLM YouTube Tracker"
     }
-
     payload = {
         "model": OPENROUTER_MODEL,
         "messages": [
-            {"role": "system", "content": "You are a helpful assistant that summarizes YouTube video transcripts in 2-3 concise English sentences. Focus on the main topic and key takeaways."},
-            {"role": "user", "content": f"Summarize the following transcript:\n\n{text[:3000]}"}
+            {"role": "system", "content": "Summarize in 2-3 English sentences, focusing on LLM/AI topics."},
+            {"role": "user", "content": f"Summarize:\n{text[:3000]}"}
         ],
         "max_tokens": 150,
         "temperature": 0.3
     }
 
     try:
-        response = requests.post(OPENROUTER_API_URL, headers=headers, json=payload, timeout=60)
-        if response.status_code == 200:
-            result = response.json()
-            summary = result["choices"][0]["message"]["content"].strip()
-            return summary
+        resp = requests.post(OPENROUTER_API_URL, headers=headers, json=payload, timeout=60)
+        if resp.status_code == 200:
+            return resp.json()["choices"][0]["message"]["content"].strip()
         else:
-            print(f"      OpenRouter error: {response.status_code} - {response.text}")
+            print(f"      OpenRouter error {resp.status_code}")
             return "[Summary API error]"
     except Exception as e:
         print(f"      Summary exception: {e}")
@@ -191,25 +161,22 @@ def main():
         videos = get_recent_videos(channel_id)
         print(f"  Found {len(videos)} videos")
         for video in videos:
-            print(f"  Fetching transcript: {video['title'][:50]}...")
-            transcript = get_transcript(video["video_id"])
-            video["transcript_preview"] = transcript[:300] + "..." if len(transcript) > 300 else transcript
-
-            if transcript.startswith("["):
-                video["ai_summary"] = "[No transcript available]"
-            else:
-                print(f"  Generating summary via OpenRouter...")
-                summary = generate_summary_with_openrouter(transcript)
+            print(f"  Transcript for: {video['title'][:50]}...")
+            transcript = get_transcript_ytdlp(video["video_id"])
+            if transcript:
+                video["transcript_preview"] = transcript[:300] + "..."
+                summary = generate_summary_openrouter(transcript)
                 video["ai_summary"] = summary
-
+            else:
+                video["transcript_preview"] = "[Transcript unavailable]"
+                video["ai_summary"] = "[No transcript available]"
             all_videos.append(video)
-            time.sleep(1)  # Be polite to APIs
+            time.sleep(2)   # Avoid rate limits
 
     output_data = {
         "last_updated": datetime.utcnow().isoformat() + "Z",
         "videos": all_videos
     }
-
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)
 
