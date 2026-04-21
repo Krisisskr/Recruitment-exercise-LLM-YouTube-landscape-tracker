@@ -5,6 +5,13 @@ from datetime import datetime
 from googleapiclient.discovery import build
 from youtube_transcript_api import YouTubeTranscriptApi
 
+# Try to import youtranscript as an alternative (more stable in GitHub Actions)
+try:
+    import youtranscript
+    YOUTRANSCRIPT_AVAILABLE = True
+except ImportError:
+    YOUTRANSCRIPT_AVAILABLE = False
+
 # -------------------------------
 # Configuration
 # -------------------------------
@@ -19,11 +26,12 @@ HF_API_URL = f"https://api-inference.huggingface.co/models/{HF_SUMMARIZATION_MOD
 youtube = build("youtube", "v3", developerKey=YOUTUBE_API_KEY)
 
 # List of YouTube channel handles (the part after '@' in the URL)
-# Example: https://www.youtube.com/@TwoMinutePapers -> handle = "TwoMinutePapers"
 CHANNEL_HANDLES = [
     "TwoMinutePapers",
-    "mattwolfe",
     "AIExplained",
+    "sentdex",
+    "lexfridman",
+    "YannicKilcher",
 ]
 
 # How many recent videos to fetch per channel
@@ -106,13 +114,29 @@ def get_recent_videos(channel_id, max_results=MAX_VIDEOS_PER_CHANNEL):
 def get_transcript(video_id):
     """
     Retrieve the English transcript of a YouTube video.
+    First tries youtranscript (more stable in GitHub Actions),
+    then falls back to youtube-transcript-api.
     """
+    # Method 1: youtranscript (web scraping, less likely to be IP-blocked)
+    if YOUTRANSCRIPT_AVAILABLE:
+        try:
+            transcript_list = youtranscript.get_transcript(video_id, languages=['en'])
+            full_text = " ".join([item['text'] for item in transcript_list])
+            if full_text.strip():
+                return full_text[:4000]
+        except Exception:
+            pass
+
+    # Method 2: original youtube-transcript-api
     try:
         transcript_list = YouTubeTranscriptApi.get_transcript(video_id, languages=['en'])
         full_text = " ".join([item['text'] for item in transcript_list])
-        return full_text[:4000]
+        if full_text.strip():
+            return full_text[:4000]
     except Exception:
-        return "[Transcript unavailable]"
+        pass
+
+    return "[Transcript unavailable]"
 
 
 def generate_summary(text):
