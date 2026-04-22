@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-21T12:50:27.427633Z",
+  "last_updated": "2026-04-22T11:43:34.536032Z",
   "videos": [
     {
       "video_id": "Sk9tvyRSCgY",
@@ -8,7 +8,7 @@
       "published_at": "2026-04-16T17:44:48Z",
       "url": "https://www.youtube.com/watch?v=Sk9tvyRSCgY",
       "transcript_preview": "Google DeepMind gave an amazing gift to humanity. \nAnd it is full of surprises. Here’s why. Today,   we are living in the age of AI where these \nsmart assistants and agents can do things   we could only dream of 10 years ago. But. \nMany of these solutions are proprietary,   require a subscription, a...",
-      "ai_summary": "Google DeepMind’s new Gemma 4 family is a completely free, open‑source set of language models that can run on very modest hardware—down to a few gigabytes of RAM, a phone, or even a first‑generation Nintendo Switch—eliminating the need for costly cloud subscriptions. Despite its small size, the 2 billion‑parameter version already powers offline translation, summarisation and real‑time image classification, while the larger 31 billion‑parameter model outperforms many much bigger proprietary or mixture‑of‑experts systems. This democratizes AI by letting anyone own and run powerful LLMs locally, forever."
+      "ai_summary": "Google DeepMind has released Gemma 4, a free and open AI model family that is surprisingly efficient, running on devices as small as a Nintendo Switch without requiring expensive hardware or subscriptions. This challenges the proprietary, cloud-dependent nature of many current AI solutions, offering users ownership and permanent access. The model also includes a larger 31B variant that outperforms expectations, demonstrating that dense models can rival or surpass more complex mixture-of-experts architectures in efficiency and performance."
     },
     {
       "video_id": "Ersv1ogj7Jo",
@@ -26,7 +26,7 @@
       "published_at": "2025-12-04T20:40:13Z",
       "url": "https://www.youtube.com/watch?v=2K0tie1pZ5M",
       "transcript_preview": "Today's AI app review is this one of bass44.com. So bass44.com is just a AI natural language app that I came across this week and it caught my attention because of how flexible it is and just how many apps you can build on it. So I haven't signed up for it yet. I have not used it yet. I'm going to b...",
-      "ai_summary": "The reviewer explores bass44.com, an AI natural language app that allows users to build fully functional apps without coding experience by simply describing what they want in conversational language. The service offers a free plan with 25 message credits and integration credits, suitable for creating basic applications like CRMs, dashboards, and tracking tools, though it may have limitations when scaling to enterprise-level needs."
+      "ai_summary": "bass44.com is"
     },
     {
       "video_id": "49AkHYiikoA",
@@ -35,7 +35,7 @@
       "published_at": "2025-12-04T01:03:16Z",
       "url": "https://www.youtube.com/watch?v=49AkHYiikoA",
       "transcript_preview": "Okay, great. So, for today's quick AI tool review is going to be the Zoom AI companion. That's what Zoom calls it. I know most people don't really use Zoom much these days, right? So, I randomly found myself opening the app and I came across this AI companion. And one of the nice things that I liked...",
-      "ai_summary": "The reviewer demonstrates Zoom's AI Companion, which offers meeting summaries, brainstorming assistance, and content generation. The standout feature highlighted is the AI-powered virtual background generator that creates custom images from text prompts with various artistic styles (cinematic, anime, fantasy, etc.). However, the demo failed to generate an image, showing only a blank result despite the feature's promising concept."
+      "ai_summary": "The Zoom AI Companion is an integrated AI system that assists users during meetings by summarizing notes, brainstorming ideas, answering questions, and generating content on demand. One standout feature lets users create custom virtual‑background images simply by typing a prompt and choosing an artistic style, turning descriptions like “inside of an AI mind” into visual backdrops in real time. While the image generation can take about a minute and occasionally"
     },
     {
       "video_id": "xHi8PUIVyoo",
@@ -44,7 +44,7 @@
       "published_at": "2026-03-06T22:07:33Z",
       "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo",
       "transcript_preview": "Hello. Have you ever been in a situation where you're overhearing conversation and it dawns on you this person well intended is wrong about something minuscule but important to you and duty. The universe compels you to tell them why they're wrong. Watch this. I recycle plastic because it's good for ...",
-      "ai_summary": "The text describes a humorous and satirical demonstration of an \"automatic mansplainer\" built using the Nvidia DGX Spark, a compact yet powerful AI computing device. The mansplainer is designed to correct people's misconceptions in real-time, often in a condescending or overly detailed manner. The author showcases the device's capabilities by having it interrupt and \"correct\" conversations, such as explaining the limitations of recycling or clarifying botanical definitions. While the device is impressive in its technical execution, the author acknowledges its potential for misuse and the lag caused by suboptimal model chaining. The demonstration highlights both the power and the ethical considerations of AI-driven communication tools."
+      "ai_summary": "The creator built an “automatic mansplainer” that captures spoken remarks, sends the audio to an Nvidia DGX Spark workstation, and runs large language‑model pipelines to generate corrective replies in real time. The Spark’s 120 GB unified RAM (effect"
     },
     {
       "video_id": "Dr6jw-WAd9E",
@@ -53,7 +53,7 @@
       "published_at": "2025-12-29T03:44:20Z",
       "url": "https://www.youtube.com/watch?v=Dr6jw-WAd9E",
       "transcript_preview": "Cool. Hello everyone. Um, as is tradition, uh, we're doing a Minecraft live stream for the holidays. Um, because it's fun. So, uh, yeah, keep in mind I am absolutely terrible at Minecraft. This is, so this is not a like, uh, a demonstration of skill or anything like this. Um, it's just, it's just fu...",
-      "ai_summary": "The speaker is hosting a casual holiday Minecraft livestream, acknowledging their lack of skill and simply aiming for fun while interacting with chat. There is no discussion of AI, LLMs, or related technologies in the excerpt; the focus remains entirely on gameplay and stream setup. Consequently, the summary highlights that the content is unrelated to AI/LLM topics."
+      "ai_summary": "This text is a transcript of a Minecraft livestream, not an AI/LLM-related discussion. It contains no content about artificial intelligence, machine learning, or language models. The speaker is simply playing Minecraft, gathering resources like wood and sheep, building a base, and interacting with chat viewers."
     }
   ]
 }
