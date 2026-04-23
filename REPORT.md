@@ -20,6 +20,8 @@ The daily workflow fetches the most recent videos from each tracked channel, obt
 
 The daily workflow fetches the most recent videos from each tracked channel, obtains their English transcripts, produces AI summaries, and updates the live website without any manual steps. The system updates once daily and tracks a limited number of videos per channel due to the quota constraints of the free-tier APIs used throughout this project. Scaling to more frequent updates or additional channels would require paid API subscriptions.
 
+The website: https://krisisskr.github.io/Recruitment-exercise-LLM-YouTube-landscape-tracker/
+
 ## 3. Tracked Channels
 
 The following YouTube channels are monitored due to their consistent focus on LLMs and AI research:
