@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-23T11:44:43.325052Z",
+  "last_updated": "2026-04-24T11:44:54.198207Z",
   "videos": [
     {
       "video_id": "Sk9tvyRSCgY",
@@ -8,7 +8,7 @@
       "published_at": "2026-04-16T17:44:48Z",
       "url": "https://www.youtube.com/watch?v=Sk9tvyRSCgY",
       "transcript_preview": "Google DeepMind gave an amazing gift to humanity. \nAnd it is full of surprises. Here’s why. Today,   we are living in the age of AI where these \nsmart assistants and agents can do things   we could only dream of 10 years ago. But. \nMany of these solutions are proprietary,   require a subscription, a...",
-      "ai_summary": "Google DeepMind has released Gemma 4, a free and open family of models designed to provide users with ownership and privacy by allowing local execution on personal hardware. These models are highly efficient, with small versions capable of running offline on mobile devices or even older gaming consoles, while larger dense models demonstrate performance that rivals much larger Mixture-of-Experts (MoE) systems."
+      "ai_summary": "Google DeepMind’s new Gemma 4 family offers surprisingly powerful, fully open‑source LLMs that can run locally on modest hardware—including phones, browsers, and even an original Nintendo Switch—enabling offline translation, summarization, image classification, and fine‑tuning without costly subscriptions. This release contrasts with many proprietary models that require cloud services and recurring fees, reinforcing the case for owning and deploying AI models independently. The Gemma 4 lineup also includes a 31‑billion‑parameter model that outperforms much larger, closed‑source competitors, highlighting the potential of dense, efficiently designed open"
     },
     {
       "video_id": "Ersv1ogj7Jo",
@@ -26,7 +26,7 @@
       "published_at": "2025-12-04T20:40:13Z",
       "url": "https://www.youtube.com/watch?v=2K0tie1pZ5M",
       "transcript_preview": "Today's AI app review is this one of bass44.com. So bass44.com is just a AI natural language app that I came across this week and it caught my attention because of how flexible it is and just how many apps you can build on it. So I haven't signed up for it yet. I have not used it yet. I'm going to b...",
-      "ai_summary": "The review highlights bass44.com as an AI natural language app that allows users to build functional apps quickly without coding. It emphasizes the app's flexibility and ease of use, offering a free plan with basic features like 25 message credits. The app is designed for creating simple applications such as dashboards or basic CRMs, making it accessible for individuals and small teams. However, scaling these apps for larger organizations often requires additional coding support."
+      "ai_summary": "The review highlights bass44.com as an AI natural language app that allows users to build functional apps quickly without coding, making it accessible for non-technical users. The app offers basic features like message credits and integration credits, enabling users to create simple tools such as dashboards or CRMs. While effective for small-scale projects, scaling these apps often requires additional coding expertise, making bass44 a good starting point for quick, conversational app development."
     },
     {
       "video_id": "49AkHYiikoA",
@@ -35,7 +35,7 @@
       "published_at": "2025-12-04T01:03:16Z",
       "url": "https://www.youtube.com/watch?v=49AkHYiikoA",
       "transcript_preview": "Okay, great. So, for today's quick AI tool review is going to be the Zoom AI companion. That's what Zoom calls it. I know most people don't really use Zoom much these days, right? So, I randomly found myself opening the app and I came across this AI companion. And one of the nice things that I liked...",
-      "ai_summary": "This review covers Zoom's AI Companion, which offers meeting summarization, brainstorming assistance, and content generation during calls. The standout feature demonstrated is the AI-powered virtual background generator that creates custom images from text prompts with various artistic style options (cinematic, anime, fantasy, etc.). However, the reviewer found the generation slow (about a minute) and experienced a failed output when testing the feature."
+      "ai_summary": "Zoom’s AI Companion is an integrated LLM‑based assistant that helps with meeting note‑taking, brainstorming, answering questions, and summarizing discussion points in real time. One standout feature lets users type a text prompt to generate custom virtual‑background images (e.g., “inside of an AI mind”) in various artistic styles, showcasing how generative AI can"
     },
     {
       "video_id": "xHi8PUIVyoo",
@@ -44,7 +44,7 @@
       "published_at": "2026-03-06T22:07:33Z",
       "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo",
       "transcript_preview": "Hello. Have you ever been in a situation where you're overhearing conversation and it dawns on you this person well intended is wrong about something minuscule but important to you and duty. The universe compels you to tell them why they're wrong. Watch this. I recycle plastic because it's good for ...",
-      "ai_summary": "The speaker built an automated “mansplainer” that listens to casual conversation, feeds the audio to a large language model running on an Nvidia DGX Spark, and returns a corrected, more precise response in"
+      "ai_summary": "[Summary generation failed]"
     },
     {
       "video_id": "Dr6jw-WAd9E",
@@ -53,7 +53,7 @@
       "published_at": "2025-12-29T03:44:20Z",
       "url": "https://www.youtube.com/watch?v=Dr6jw-WAd9E",
       "transcript_preview": "Cool. Hello everyone. Um, as is tradition, uh, we're doing a Minecraft live stream for the holidays. Um, because it's fun. So, uh, yeah, keep in mind I am absolutely terrible at Minecraft. This is, so this is not a like, uh, a demonstration of skill or anything like this. Um, it's just, it's just fu...",
-      "ai_summary": "The speaker begins a casual Minecraft holiday livestream, noting their lack of skill and reliance on commands while interacting with the chat. They explicitly highlight the absence of AI or LLM technology in the gameplay, focusing instead on traditional, manual \"human Minecrafting.\""
+      "ai_summary": "The stream transcript contains no discussionof artificial intelligence or large language models; it"
     }
   ]
 }
