@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-26T10:32:06.492969Z",
+  "last_updated": "2026-04-27T13:09:25.314754Z",
   "videos": [
     {
       "video_id": "Xf_v62TQOx4",
@@ -17,7 +17,7 @@
       "published_at": "2026-04-16T17:44:48Z",
       "url": "https://www.youtube.com/watch?v=Sk9tvyRSCgY",
       "transcript_preview": "Google DeepMind gave an amazing gift to humanity. \nAnd it is full of surprises. Here’s why. Today,   we are living in the age of AI where these \nsmart assistants and agents can do things   we could only dream of 10 years ago. But. \nMany of these solutions are proprietary,   require a subscription, a...",
-      "ai_summary": "[Summary generation failed]"
+      "ai_summary": "Google DeepMind's release of the Gemma 4 AI model marks a significant advancement in the field of AI, offering a free and open-source alternative that requires minimal hardware resources, even running on low-end devices like an old Nintendo Switch. The model's smallest version, with only a few gigabytes of memory, is a notable achievement, especially when it outperforms larger, proprietary models and even dense models that are 10 to 20 times bigger, challenging the dominance of mixture of experts (MoE) architectures in modern AI systems. This development underscores the potential for more accessible and powerful AI technologies that can be utilized without heavy reliance on proprietary solutions or expensive infrastructure."
     },
     {
       "video_id": "2K0tie1pZ5M",
@@ -26,7 +26,7 @@
       "published_at": "2025-12-04T20:40:13Z",
       "url": "https://www.youtube.com/watch?v=2K0tie1pZ5M",
       "transcript_preview": "Today's AI app review is this one of bass44.com. So bass44.com is just a AI natural language app that I came across this week and it caught my attention because of how flexible it is and just how many apps you can build on it. So I haven't signed up for it yet. I have not used it yet. I'm going to b...",
-      "ai_summary": "Bass44.com is an AI natural language app that allows users to create fully functional apps without coding experience by interpreting conversational language inputs. It offers a free plan with 25 message credits and integration credits, suitable for basic apps like dashboards or CRMs, but may face limitations when scaling for enterprise-level use, requiring additional coding expertise."
+      "ai_summary": "Bass44.com is a natural language AI app that allows users to create fully functional apps without coding experience by interpreting conversational language inputs. It offers a free plan with 25 message credits and integration credits, suitable for building basic apps like dashboards or CRMs, though it may face scalability challenges for enterprise-level applications requiring customization and coding expertise."
     },
     {
       "video_id": "49AkHYiikoA",
@@ -35,7 +35,7 @@
       "published_at": "2025-12-04T01:03:16Z",
       "url": "https://www.youtube.com/watch?v=49AkHYiikoA",
       "transcript_preview": "Okay, great. So, for today's quick AI tool review is going to be the Zoom AI companion. That's what Zoom calls it. I know most people don't really use Zoom much these days, right? So, I randomly found myself opening the app and I came across this AI companion. And one of the nice things that I liked...",
-      "ai_summary": "The Zoom AI companion is an AI system integrated into Zoom that assists users with meeting note summaries, brainstorming, and generating ideas and content during meetings. It also allows users to create custom virtual backgrounds based on text prompts, offering various artistic styles. However, the user experienced a delay and a blank result when trying to generate a virtual background with the prompt \"AI Zoom review room,\" suggesting potential issues with the feature's reliability."
+      "ai_summary": "The Zoom AI Companion is an integrated AI system that assists users with brainstorming, meeting summaries, and content generation. The speaker specifically highlights its generative AI capability to create custom virtual backgrounds based on text prompts and various artistic styles."
     },
     {
       "video_id": "xHi8PUIVyoo",
@@ -44,7 +44,7 @@
       "published_at": "2026-03-06T22:07:33Z",
       "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo",
       "transcript_preview": "Hello. Have you ever been in a situation where you're overhearing conversation and it dawns on you this person well intended is wrong about something minuscule but important to you and duty. The universe compels you to tell them why they're wrong. Watch this. I recycle plastic because it's good for ...",
-      "ai_summary": "[Summary generation failed]"
+      "ai_summary": "The speaker describes a scenario where they correct others' misconceptions in real-time using an AI-powered \"mansplainer\" built on the Nvidia DGX Spark, a portable AI system with 120 GB unified RAM. The speaker demonstrates the system's ability to provide immediate, fact-based corrections during conversations, highlighting its potential for real-time knowledge dissemination, while also noting minor technical inefficiencies in the setup."
     },
     {
       "video_id": "Dr6jw-WAd9E",
@@ -53,7 +53,7 @@
       "published_at": "2025-12-29T03:44:20Z",
       "url": "https://www.youtube.com/watch?v=Dr6jw-WAd9E",
       "transcript_preview": "Cool. Hello everyone. Um, as is tradition, uh, we're doing a Minecraft live stream for the holidays. Um, because it's fun. So, uh, yeah, keep in mind I am absolutely terrible at Minecraft. This is, so this is not a like, uh, a demonstration of skill or anything like this. Um, it's just, it's just fu...",
-      "ai_summary": "The transcript is a casual, unscripted commentary of a creator’s holiday Minecraft livestream, describing their lack of skill, basic in‑game actions (gathering wood, building a base, spotting sheep and bees), and some technical streaming details. It contains no discussion of artificial intelligence, large language models, or related technologies."
+      "ai_summary": "The provided text does not contain any AI/LLM-related content. It appears to be a transcript of a Minecraft livestream where the streamer is playing the game, gathering resources, building a base, and interacting with chat. There are no topics related to artificial intelligence or large language models in this content."
     }
   ]
 }
