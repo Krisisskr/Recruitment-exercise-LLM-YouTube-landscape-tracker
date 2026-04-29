@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-04-28T16:13:42.381577Z",
+  "last_updated": "2026-04-29T13:11:22.419136Z",
   "videos": [
+    {
+      "video_id": "yzajLZXh9JU",
+      "title": "Solved: The Bug That Haunted AI Video For Years",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-04-28T17:16:01Z",
+      "url": "https://www.youtube.com/watch?v=yzajLZXh9JU",
+      "transcript_preview": "Today, generating eye-poppingly high-quality \nvideos just by writing a text prompt is possible.   You can also get exceptional controllability \nas well. You can generate three movies that   look completely different, \nbut land on the same ending.   Almost anything you can think becomes \nachievable, ...",
+      "ai_summary": "[Summary API error]"
+    },
     {
       "video_id": "Xf_v62TQOx4",
       "title": "NVIDIA's New AI Broke My Brain",
@@ -8,15 +17,6 @@
       "published_at": "2026-04-25T17:09:47Z",
       "url": "https://www.youtube.com/watch?v=Xf_v62TQOx4",
       "transcript_preview": "Let’s see what is going on here. This is me \naround 9am. A bit wobbly, steps are unsure,   yup, that checks out. Now then, give me my \nfake badge. Thank you sir. Hehehe, no one   noticed. Now let’s proceed to the next step of my \nmastermind plans. Let’s eat all their food. Wait,   they noticed. Proc...",
-      "ai_summary": "[Summary API error]"
-    },
-    {
-      "video_id": "Sk9tvyRSCgY",
-      "title": "DeepMind’s New AI: A Gift To Humanity",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-04-16T17:44:48Z",
-      "url": "https://www.youtube.com/watch?v=Sk9tvyRSCgY",
-      "transcript_preview": "Google DeepMind gave an amazing gift to humanity. \nAnd it is full of surprises. Here’s why. Today,   we are living in the age of AI where these \nsmart assistants and agents can do things   we could only dream of 10 years ago. But. \nMany of these solutions are proprietary,   require a subscription, a...",
       "ai_summary": "[Summary API error]"
     },
     {
