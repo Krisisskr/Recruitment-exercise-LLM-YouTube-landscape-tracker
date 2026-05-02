@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-05-01T11:42:13.503485Z",
+  "last_updated": "2026-05-02T10:38:17.927413Z",
   "videos": [
+    {
+      "video_id": "QzZ4VwDHAT4",
+      "title": "Sakana AI’s Survival Simulator Is Brilliant",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-05-01T16:43:34Z",
+      "url": "https://www.youtube.com/watch?v=QzZ4VwDHAT4",
+      "transcript_preview": "I love this work. This comes from the Sakana \nAI lab in Tokyo, and it feels like mad science   in the best possible way. I had an almost illegal \namount of fun with it, and you can try it too   right now. Assuming we don’t crash this website, \nwhich we sometimes do in a Scholarly Stampede.  Now this...",
+      "ai_summary": "[Summary API error]"
+    },
     {
       "video_id": "yzajLZXh9JU",
       "title": "Solved: The Bug That Haunted AI Video For Years",
@@ -8,15 +17,6 @@
       "published_at": "2026-04-28T17:16:01Z",
       "url": "https://www.youtube.com/watch?v=yzajLZXh9JU",
       "transcript_preview": "Today, generating eye-poppingly high-quality \nvideos just by writing a text prompt is possible.   You can also get exceptional controllability \nas well. You can generate three movies that   look completely different, \nbut land on the same ending.   Almost anything you can think becomes \nachievable, ...",
-      "ai_summary": "[Summary API error]"
-    },
-    {
-      "video_id": "Xf_v62TQOx4",
-      "title": "NVIDIA's New AI Broke My Brain",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-04-25T17:09:47Z",
-      "url": "https://www.youtube.com/watch?v=Xf_v62TQOx4",
-      "transcript_preview": "Let’s see what is going on here. This is me \naround 9am. A bit wobbly, steps are unsure,   yup, that checks out. Now then, give me my \nfake badge. Thank you sir. Hehehe, no one   noticed. Now let’s proceed to the next step of my \nmastermind plans. Let’s eat all their food. Wait,   they noticed. Proc...",
       "ai_summary": "[Summary API error]"
     },
     {
