@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-05-03T11:07:28.165478Z",
+  "last_updated": "2026-05-04T13:14:06.382925Z",
   "videos": [
+    {
+      "video_id": "eCw33snvoNI",
+      "title": "NVIDIA's New AI Turns One Photo Into A World That Never Breaks",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-05-03T17:02:48Z",
+      "url": "https://www.youtube.com/watch?v=eCw33snvoNI",
+      "transcript_preview": "I can’t believe that we are getting \nthis for free. What is this? Well, hold on to your papers Fellow \nScholars because you take just one image,   and it creates a 3D explorable world \nout of it. Super cool. They call it   Lyra 2.0. It sounds almost too good to be \ntrue, and it often is. I’ll tell y...",
+      "ai_summary": "[Summary API error]"
+    },
     {
       "video_id": "QzZ4VwDHAT4",
       "title": "Sakana AI’s God Simulator Is Brilliant",
@@ -8,15 +17,6 @@
       "published_at": "2026-05-01T16:43:34Z",
       "url": "https://www.youtube.com/watch?v=QzZ4VwDHAT4",
       "transcript_preview": "I love this work. This comes from the Sakana \nAI lab in Tokyo, and it feels like mad science   in the best possible way. I had an almost illegal \namount of fun with it, and you can try it too   right now. Assuming we don’t crash this website, \nwhich we sometimes do in a Scholarly Stampede.  Now this...",
-      "ai_summary": "[Summary API error]"
-    },
-    {
-      "video_id": "yzajLZXh9JU",
-      "title": "Solved: The Bug That Haunted AI Video For Years",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-04-28T17:16:01Z",
-      "url": "https://www.youtube.com/watch?v=yzajLZXh9JU",
-      "transcript_preview": "Today, generating eye-poppingly high-quality \nvideos just by writing a text prompt is possible.   You can also get exceptional controllability \nas well. You can generate three movies that   look completely different, \nbut land on the same ending.   Almost anything you can think becomes \nachievable, ...",
       "ai_summary": "[Summary API error]"
     },
     {
