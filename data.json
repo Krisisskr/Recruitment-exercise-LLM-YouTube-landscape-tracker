@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-05-06T15:56:22.323497Z",
+  "last_updated": "2026-05-07T15:56:22.375397Z",
   "videos": [
+    {
+      "video_id": "p7K3xfViWCE",
+      "title": "DeepSeek V4 AI Beats Billion Dollar Systems…For Free",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-05-06T16:07:54Z",
+      "url": "https://www.youtube.com/watch?v=p7K3xfViWCE",
+      "transcript_preview": "Finally, DeepSeek 4 is here, and it is \ndescribed in a 58-page research paper.   And finally, nothing is held back here. I’ll \nbe honest I am feeling a little shy today,   so I will do classic Two Minute \nPapers, mikrophone, but no camera. This is one of the biggest open \nand free AI models that we ...",
+      "ai_summary": "[Summary API error]"
+    },
     {
       "video_id": "eCw33snvoNI",
       "title": "NVIDIA's New AI Turns One Photo Into A World That Never Breaks",
@@ -8,15 +17,6 @@
       "published_at": "2026-05-03T17:02:48Z",
       "url": "https://www.youtube.com/watch?v=eCw33snvoNI",
       "transcript_preview": "I can’t believe that we are getting \nthis for free. What is this? Well, hold on to your papers Fellow \nScholars because you take just one image,   and it creates a 3D explorable world \nout of it. Super cool. They call it   Lyra 2.0. It sounds almost too good to be \ntrue, and it often is. I’ll tell y...",
-      "ai_summary": "[Summary API error]"
-    },
-    {
-      "video_id": "QzZ4VwDHAT4",
-      "title": "Sakana AI’s God Simulator Is Brilliant",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-05-01T16:43:34Z",
-      "url": "https://www.youtube.com/watch?v=QzZ4VwDHAT4",
-      "transcript_preview": "I love this work. This comes from the Sakana \nAI lab in Tokyo, and it feels like mad science   in the best possible way. I had an almost illegal \namount of fun with it, and you can try it too   right now. Assuming we don’t crash this website, \nwhich we sometimes do in a Scholarly Stampede.  Now this...",
       "ai_summary": "[Summary API error]"
     },
     {
@@ -52,7 +52,7 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2025-12-29T03:44:20Z",
       "url": "https://www.youtube.com/watch?v=Dr6jw-WAd9E",
-      "transcript_preview": "[Transcript unavailable]",
+      "transcript_preview": "[Supadata quota exceeded]",
       "ai_summary": "[No transcript available]"
     }
   ]
