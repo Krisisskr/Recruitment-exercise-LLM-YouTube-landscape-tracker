@@ -1,21 +1,21 @@
 {
-  "last_updated": "2026-05-12T16:33:12.578485Z",
+  "last_updated": "2026-05-13T16:34:45.183604Z",
   "videos": [
+    {
+      "video_id": "4wC8hnQawiA",
+      "title": "NVIDIA’s New AI Is Fast For A Strange Reason",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-05-13T16:07:20Z",
+      "url": "https://www.youtube.com/watch?v=4wC8hnQawiA",
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
+    },
     {
       "video_id": "4nQnhjimB4Y",
       "title": "OpenAI's ChatGPT 5.5 Instant: The Good, The Bad And The Insane",
       "channel_name": "Two Minute Papers",
       "published_at": "2026-05-08T16:46:30Z",
       "url": "https://www.youtube.com/watch?v=4nQnhjimB4Y",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "p7K3xfViWCE",
-      "title": "DeepSeek V4 AI Beats Billion Dollar Systems…For Free",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-05-06T16:07:54Z",
-      "url": "https://www.youtube.com/watch?v=p7K3xfViWCE",
       "transcript_preview": "[Supadata quota exceeded]",
       "ai_summary": "[No transcript available]"
     },
