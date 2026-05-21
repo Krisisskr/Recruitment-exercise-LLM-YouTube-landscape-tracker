@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-20T18:03:07.882011Z",
+  "last_updated": "2026-05-21T17:32:43.753525Z",
   "videos": [
     {
       "video_id": "4wC8hnQawiA",
@@ -7,8 +7,8 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-05-13T16:07:20Z",
       "url": "https://www.youtube.com/watch?v=4wC8hnQawiA",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "Hmm, 30 billion parameters in a new open free AI model where images, video, and audio all work. Hmm, [clears throat] why? There are a bunch of other free systems around in this area like the amazing Gemma 4. So, what does this do better than those? Two words, throughput and cost efficiency. Okay, wh...",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "4nQnhjimB4Y",
@@ -16,8 +16,8 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-05-08T16:46:30Z",
       "url": "https://www.youtube.com/watch?v=4nQnhjimB4Y",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "Everyone is talking about Frontier Chad GPT models that do all the thinking and the brilliant rocket science stuff. But the instant version, this is actually what hundreds of millions of people around the globe use. It's what grandma uses when asking about medication. Super important. So, no Chad GP...",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "2K0tie1pZ5M",
@@ -25,8 +25,8 @@
       "channel_name": "AI Explained",
       "published_at": "2025-12-04T20:40:13Z",
       "url": "https://www.youtube.com/watch?v=2K0tie1pZ5M",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "Today's AI app review is this one of bass44.com. So bass44.com is just a AI natural language app that I came across this week and it caught my attention because of how flexible it is and just how many apps you can build on it. So I haven't signed up for it yet. I have not used it yet. I'm going to b...",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "49AkHYiikoA",
@@ -34,8 +34,8 @@
       "channel_name": "AI Explained",
       "published_at": "2025-12-04T01:03:16Z",
       "url": "https://www.youtube.com/watch?v=49AkHYiikoA",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "Okay, great. So, for today's quick AI tool review is going to be the Zoom AI companion. That's what Zoom calls it. I know most people don't really use Zoom much these days, right? So, I randomly found myself opening the app and I came across this AI companion. And one of the nice things that I liked...",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "xHi8PUIVyoo",
@@ -43,8 +43,8 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2026-03-06T22:07:33Z",
       "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "Hello. Have you ever been in a situation where you're overhearing conversation and it dawns on you this person well intended is wrong about something minuscule but important to you and duty. The universe compels you to tell them why they're wrong. Watch this. I recycle plastic because it's good for ...",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "Dr6jw-WAd9E",
@@ -52,8 +52,8 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2025-12-29T03:44:20Z",
       "url": "https://www.youtube.com/watch?v=Dr6jw-WAd9E",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "Cool. Hello everyone. Um, as is tradition, uh, we're doing a Minecraft live stream for the holidays. Um, because it's fun. So, uh, yeah, keep in mind I am absolutely terrible at Minecraft. This is, so this is not a like, uh, a demonstration of skill or anything like this. Um, it's just, it's just fu...",
+      "ai_summary": "[Summary API error]"
     }
   ]
 }
