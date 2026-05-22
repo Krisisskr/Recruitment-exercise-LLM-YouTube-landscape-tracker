@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-05-21T17:32:43.753525Z",
+  "last_updated": "2026-05-22T10:46:03.648380Z",
   "videos": [
+    {
+      "video_id": "LpXhy2iiaQE",
+      "title": "DeepSeek’s New AI Is A Game Changer",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-05-22T00:47:58Z",
+      "url": "https://www.youtube.com/watch?v=LpXhy2iiaQE",
+      "transcript_preview": "Hmm, why does this deep sea quirk exist? I mean, it adds vision capabilities to the deep sea AI system, but that's not new. A lot of other AI systems have vision capabilities. You just drop an image here and it works. Even video and even for open models. So, why do we need this paper? Well, they did...",
+      "ai_summary": "[Summary API error]"
+    },
     {
       "video_id": "4wC8hnQawiA",
       "title": "NVIDIA New AI Is An Efficiency Monster",
@@ -8,15 +17,6 @@
       "published_at": "2026-05-13T16:07:20Z",
       "url": "https://www.youtube.com/watch?v=4wC8hnQawiA",
       "transcript_preview": "Hmm, 30 billion parameters in a new open free AI model where images, video, and audio all work. Hmm, [clears throat] why? There are a bunch of other free systems around in this area like the amazing Gemma 4. So, what does this do better than those? Two words, throughput and cost efficiency. Okay, wh...",
-      "ai_summary": "[Summary API error]"
-    },
-    {
-      "video_id": "4nQnhjimB4Y",
-      "title": "OpenAI's ChatGPT 5.5 Instant: The Good, The Bad And The Insane",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-05-08T16:46:30Z",
-      "url": "https://www.youtube.com/watch?v=4nQnhjimB4Y",
-      "transcript_preview": "Everyone is talking about Frontier Chad GPT models that do all the thinking and the brilliant rocket science stuff. But the instant version, this is actually what hundreds of millions of people around the globe use. It's what grandma uses when asking about medication. Super important. So, no Chad GP...",
       "ai_summary": "[Summary API error]"
     },
     {
