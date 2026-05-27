@@ -1,22 +1,22 @@
 {
-  "last_updated": "2026-05-25T11:50:10.841795Z",
+  "last_updated": "2026-05-27T11:33:48.632764Z",
   "videos": [
     {
-      "video_id": "LpXhy2iiaQE",
-      "title": "DeepSeek’s New AI Is A Game Changer",
+      "video_id": "kIvvzCR5NjA",
+      "title": "Google DeepMind CEO Likes Hard Questions",
       "channel_name": "Two Minute Papers",
-      "published_at": "2026-05-22T00:47:58Z",
-      "url": "https://www.youtube.com/watch?v=LpXhy2iiaQE",
-      "transcript_preview": "Hmm, why does this deep sea quirk exist? I mean, it adds vision capabilities to the deep sea AI system, but that's not new. A lot of other AI systems have vision capabilities. You just drop an image here and it works. Even video and even for open models. So, why do we need this paper? Well, they did...",
+      "published_at": "2026-05-26T17:35:28Z",
+      "url": "https://www.youtube.com/watch?v=kIvvzCR5NjA",
+      "transcript_preview": "weak and easy questions. Please try to answer in one sentence, sometimes one word. >> Oh wow, that's hard. Um, >> Fineman or Newton? >> Oh, wow. That's even harder. Uh-huh.",
       "ai_summary": "[Summary API error]"
     },
     {
-      "video_id": "4wC8hnQawiA",
-      "title": "NVIDIA New AI Is An Efficiency Monster",
+      "video_id": "huAwz_BR8WM",
+      "title": "DeepMind’s Insane AI Breakthroughs With CEO Demis Hassabis",
       "channel_name": "Two Minute Papers",
-      "published_at": "2026-05-13T16:07:20Z",
-      "url": "https://www.youtube.com/watch?v=4wC8hnQawiA",
-      "transcript_preview": "Hmm, 30 billion parameters in a new open free AI model where images, video, and audio all work. Hmm, [clears throat] why? There are a bunch of other free systems around in this area like the amazing Gemma 4. So, what does this do better than those? Two words, throughput and cost efficiency. Okay, wh...",
+      "published_at": "2026-05-25T17:49:30Z",
+      "url": "https://www.youtube.com/watch?v=huAwz_BR8WM",
+      "transcript_preview": "weak and easy questions. Please try to answer in one sentence, sometimes one word. >> Oh, wow. That's hard. Um, >> Fineman or Newton. >> Oh, wow. That's even harder. >> Dennis, I don't know if I told you, but my mother recently got some health scan results. It was a massive video file, and we had to...",
       "ai_summary": "[Summary API error]"
     },
     {
