@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-05-31T10:11:29.026694Z",
+  "last_updated": "2026-06-01T13:32:42.454431Z",
   "videos": [
+    {
+      "video_id": "vsKH3oPwss4",
+      "title": "Einstein vs Feynman,  Who Wins? 🧠🤔 #physics #ai #science #feynman #research",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-06-01T00:16:21Z",
+      "url": "https://www.youtube.com/watch?v=vsKH3oPwss4",
+      "transcript_preview": "Fineman or Einstein? >> Oh wow, that's hard. Um, probably Fineman for me, but my personal favorite. >> Okay, Fineman or Newton. >> Oh, wow. That's even harder. >> Uh, there. Maybe I have to go. Maybe I have to go with Newton for my Cambridge connections. >> All right. Favorite two-minute papers epis...",
+      "ai_summary": "[Summary API error]"
+    },
     {
       "video_id": "kIvvzCR5NjA",
       "title": "Google DeepMind CEO Loves Hard Questions 🙂",
@@ -8,15 +17,6 @@
       "published_at": "2026-05-26T17:35:28Z",
       "url": "https://www.youtube.com/watch?v=kIvvzCR5NjA",
       "transcript_preview": "weak and easy questions. Please try to answer in one sentence, sometimes one word. >> Oh wow, that's hard. Um, >> Fineman or Newton? >> Oh, wow. That's even harder. Uh-huh.",
-      "ai_summary": "[Summary API error]"
-    },
-    {
-      "video_id": "huAwz_BR8WM",
-      "title": "DeepMind’s Insane AI Breakthroughs With CEO Demis Hassabis",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-05-25T17:49:30Z",
-      "url": "https://www.youtube.com/watch?v=huAwz_BR8WM",
-      "transcript_preview": "weak and easy questions. Please try to answer in one sentence, sometimes one word. >> Oh, wow. That's hard. Um, >> Fineman or Newton. >> Oh, wow. That's even harder. >> Dennis, I don't know if I told you, but my mother recently got some health scan results. It was a massive video file, and we had to...",
       "ai_summary": "[Summary API error]"
     },
     {
