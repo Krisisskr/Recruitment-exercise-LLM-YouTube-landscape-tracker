@@ -1,22 +1,22 @@
 {
-  "last_updated": "2026-06-03T12:38:20.617372Z",
+  "last_updated": "2026-06-04T11:14:04.993577Z",
   "videos": [
     {
-      "video_id": "MOviZKtFeHM",
-      "title": "A Second Nobel Prize for AlphaFold? 🧬🏆 #alphafold #deepmind #nobelprize #science #ai",
+      "video_id": "iz7elwbqZVI",
+      "title": "Meet the AI \"Co-Scientist\" Changing Everything 🤖🧪 #ai",
       "channel_name": "Two Minute Papers",
-      "published_at": "2026-06-02T07:13:59Z",
-      "url": "https://www.youtube.com/watch?v=MOviZKtFeHM",
-      "transcript_preview": "So do you expect that to happen? Second order. No, >> that's a really interesting idea. I I I am I think it's it's possible um given the number of researchers who are using Alpha Fold, you know, over 3 million at this point and they're all doing incredibly important work and impactful work. So uh ye...",
+      "published_at": "2026-06-03T17:00:19Z",
+      "url": "https://www.youtube.com/watch?v=iz7elwbqZVI",
+      "transcript_preview": "Now you have a system called co-scientist that can invent new things. >> Can you tell me about it? >> Yeah, you can think of co-scientist as a sort of um fine-tuned version of Gemini that's specifically uh with extra tools and extra harnesses on top that uh is specific for helping with hypothesis ge...",
       "ai_summary": "[Summary API error]"
     },
     {
-      "video_id": "yz6I23VRbdg",
-      "title": "What Happens After A 1,000,000x AI Compute Leap? | Jeff Dean",
+      "video_id": "ypL7kUiw_LM",
+      "title": "Claude Opus 4.8: Lying Machine No More?",
       "channel_name": "Two Minute Papers",
-      "published_at": "2026-06-01T15:41:22Z",
-      "url": "https://www.youtube.com/watch?v=yz6I23VRbdg",
-      "transcript_preview": "There used to be a chat group internally called data centers on fire that would have like exciting uh exciting events happening. >> A distant supernova goes off, a cosmic ray hits a memory cell and a zero flips to a one. Does that really happen? >> Oh yeah. >> So my question is do you enjoy these Ch...",
+      "published_at": "2026-06-03T13:49:31Z",
+      "url": "https://www.youtube.com/watch?v=ypL7kUiw_LM",
+      "transcript_preview": "Anthropics Claude Opus 4.8 is here. And the system card describing its capabilities is 244 pages. Really excited for that. And I went through it so you don't have to. Why? Well, because otherwise we are looking at these cherrypicked benchmarks that are a bit more marketing than science. But we are n...",
       "ai_summary": "[Summary API error]"
     },
     {
