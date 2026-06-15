@@ -1,21 +1,21 @@
 {
-  "last_updated": "2026-06-14T10:46:19.661327Z",
+  "last_updated": "2026-06-15T13:50:17.921667Z",
   "videos": [
+    {
+      "video_id": "zJvN8PDX1is",
+      "title": "NVIDIA's New Free AI - A Gift To Humanity",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-06-14T15:27:17Z",
+      "url": "https://www.youtube.com/watch?v=zJvN8PDX1is",
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
+    },
     {
       "video_id": "82m7YqosdgU",
       "title": "AI Agents as \"Games Masters\"? 🎮🔥",
       "channel_name": "Two Minute Papers",
       "published_at": "2026-06-06T06:20:46Z",
       "url": "https://www.youtube.com/watch?v=82m7YqosdgU",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "Dkqzqw8rxXI",
-      "title": "DeepMind’s New AI Found A Strange New Way To Think",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-06-05T15:50:26Z",
-      "url": "https://www.youtube.com/watch?v=Dkqzqw8rxXI",
       "transcript_preview": "[Supadata quota exceeded]",
       "ai_summary": "[No transcript available]"
     },
