@@ -1,21 +1,21 @@
 {
-  "last_updated": "2026-06-19T12:02:14.362025Z",
+  "last_updated": "2026-06-20T10:29:50.752815Z",
   "videos": [
+    {
+      "video_id": "dUmT0OIGoqE",
+      "title": "Scientists Found A Better Language For AI Agents",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-06-19T14:06:00Z",
+      "url": "https://www.youtube.com/watch?v=dUmT0OIGoqE",
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
+    },
     {
       "video_id": "l72ufA-4SzE",
       "title": "They Looked Inside Claude’s AI's Mind. It Got Weird",
       "channel_name": "Two Minute Papers",
       "published_at": "2026-06-16T15:53:17Z",
       "url": "https://www.youtube.com/watch?v=l72ufA-4SzE",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "zJvN8PDX1is",
-      "title": "NVIDIA's New Free AI - A Gift To Humanity",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-06-14T15:27:17Z",
-      "url": "https://www.youtube.com/watch?v=zJvN8PDX1is",
       "transcript_preview": "[Supadata quota exceeded]",
       "ai_summary": "[No transcript available]"
     },
