@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-06-22T13:31:07.622372Z",
+  "last_updated": "2026-06-23T10:58:28.138573Z",
   "videos": [
+    {
+      "video_id": "mG4SmhWyeFA",
+      "title": "DeepSeek Just Solved AI's Billion Dollar Problem",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-06-22T15:53:06Z",
+      "url": "https://www.youtube.com/watch?v=mG4SmhWyeFA",
+      "transcript_preview": "Scientists at Deep Seek have invented something amazing and exactly at the right time when we need it most. You see, we are entering the age of AI. But, I am really surprised. I just found out that the way these AI systems run on our computers is incredibly inefficient. So, if you want your AI assis...",
+      "ai_summary": "[Summary API error]"
+    },
     {
       "video_id": "dUmT0OIGoqE",
       "title": "Scientists Found A Better Language For AI Agents",
@@ -8,15 +17,6 @@
       "published_at": "2026-06-19T14:06:00Z",
       "url": "https://www.youtube.com/watch?v=dUmT0OIGoqE",
       "transcript_preview": "The number of AI agents on the internet is increasing at such an insane rate. I don't think I've seen anything like this. This is crazy. And this is an area that is quite new, and the technology is still pretty rough. Improving rapidly, but pretty rough. And the promise of agents is incredible. It w...",
-      "ai_summary": "[Summary API error]"
-    },
-    {
-      "video_id": "l72ufA-4SzE",
-      "title": "They Looked Inside Claude’s AI's Mind. It Got Weird",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-06-16T15:53:17Z",
-      "url": "https://www.youtube.com/watch?v=l72ufA-4SzE",
-      "transcript_preview": "AI systems today are really powerful and can do a lot. No question about that. But, how do they really work? We have so many questions. Do they think like humans? How do they beat the best human chess player? How do they beat the world champion video game players? And how is it possible that an AI c...",
       "ai_summary": "[Summary API error]"
     },
     {
