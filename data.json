@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24T10:44:42.497401Z",
+  "last_updated": "2026-06-25T10:37:54.669222Z",
   "videos": [
     {
       "video_id": "mG4SmhWyeFA",
@@ -7,8 +7,8 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-06-22T15:53:06Z",
       "url": "https://www.youtube.com/watch?v=mG4SmhWyeFA",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "Scientists at Deep Seek have invented something amazing and exactly at the right time when we need it most. You see, we are entering the age of AI. But, I am really surprised. I just found out that the way these AI systems run on our computers is incredibly inefficient. So, if you want your AI assis...",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "dUmT0OIGoqE",
@@ -16,26 +16,17 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-06-19T14:06:00Z",
       "url": "https://www.youtube.com/watch?v=dUmT0OIGoqE",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "The number of AI agents on the internet is increasing at such an insane rate. I don't think I've seen anything like this. This is crazy. And this is an area that is quite new, and the technology is still pretty rough. Improving rapidly, but pretty rough. And the promise of agents is incredible. It w...",
+      "ai_summary": "[Summary API error]"
     },
     {
-      "video_id": "2K0tie1pZ5M",
-      "title": "I Built an App Using Only English… Thanks to Base44 🤯",
-      "channel_name": "AidenAi",
-      "published_at": "2025-12-04T20:40:13Z",
-      "url": "https://www.youtube.com/watch?v=2K0tie1pZ5M",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "49AkHYiikoA",
-      "title": "I Tried Zoom AI So You Don’t Have To",
-      "channel_name": "AidenAi",
-      "published_at": "2025-12-04T01:03:16Z",
-      "url": "https://www.youtube.com/watch?v=49AkHYiikoA",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
+      "video_id": "tvaYPW0QSRk",
+      "title": "June 24, 2026",
+      "channel_name": "AI Ki Duniya",
+      "published_at": "2026-06-24T18:30:31Z",
+      "url": "https://www.youtube.com/watch?v=tvaYPW0QSRk",
+      "transcript_preview": "नमस्ते दोस्तों, मैं हूं मटका। आज मैं आपको एक मजेदार कहानी सुनाने वाला हूं। वीडियो को लाइक और सब्सक्राइब करना मत भूलना।",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "xHi8PUIVyoo",
@@ -43,8 +34,8 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2026-03-06T22:07:33Z",
       "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "Hello. Have you ever been in a situation where you're overhearing conversation and it dawns on you this person well intended is wrong about something minuscule but important to you and duty. The universe compels you to tell them why they're wrong. Watch this. I recycle plastic because it's good for ...",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "Dr6jw-WAd9E",
@@ -52,8 +43,8 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2025-12-29T03:44:20Z",
       "url": "https://www.youtube.com/watch?v=Dr6jw-WAd9E",
-      "transcript_preview": "[Transcript unavailable]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "Cool. Hello everyone. Um, as is tradition, uh, we're doing a Minecraft live stream for the holidays. Um, because it's fun. So, uh, yeah, keep in mind I am absolutely terrible at Minecraft. This is, so this is not a like, uh, a demonstration of skill or anything like this. Um, it's just, it's just fu...",
+      "ai_summary": "[Summary API error]"
     }
   ]
 }
