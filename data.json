@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-07-03T10:31:04.059814Z",
+  "last_updated": "2026-07-04T10:04:01.809555Z",
   "videos": [
+    {
+      "video_id": "uO5cvkzh3P0",
+      "title": "They Said This Will Never Run In Real Time",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-07-03T17:19:59Z",
+      "url": "https://www.youtube.com/watch?v=uO5cvkzh3P0",
+      "transcript_preview": "Today, we are going to create crazy virtual worlds where we simulate squishy things. Yes, things that deform. This new method is incredibly impressive. It can do absolutely wonderful things. Elastic barbarian ships and rods, really squishy letters, super detailed cloth wrinkles, and then whatever th...",
+      "ai_summary": "[Summary API error]"
+    },
     {
       "video_id": "qks6dGQFd_c",
       "title": "AI Just Entered A New Era",
@@ -8,15 +17,6 @@
       "published_at": "2026-07-01T05:23:54Z",
       "url": "https://www.youtube.com/watch?v=qks6dGQFd_c",
       "transcript_preview": "The US government essentially banned the use of fable anthropics frontier level AI system. And if this kind of capability is locked away from us, even from some of its own creators, we have to ask if any other AI model reaches that capability, will that get the banhammer too? So far, the answer seem...",
-      "ai_summary": "[Summary API error]"
-    },
-    {
-      "video_id": "mG4SmhWyeFA",
-      "title": "DeepSeek Just Solved AI's Billion Dollar Problem",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-06-22T15:53:06Z",
-      "url": "https://www.youtube.com/watch?v=mG4SmhWyeFA",
-      "transcript_preview": "Scientists at Deep Seek have invented something amazing and exactly at the right time when we need it most. You see, we are entering the age of AI. But, I am really surprised. I just found out that the way these AI systems run on our computers is incredibly inefficient. So, if you want your AI assis...",
       "ai_summary": "[Summary API error]"
     },
     {
