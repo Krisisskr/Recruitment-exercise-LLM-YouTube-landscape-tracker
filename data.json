@@ -1,21 +1,21 @@
 {
-  "last_updated": "2026-07-15T09:56:50.577029Z",
+  "last_updated": "2026-07-16T10:03:02.324284Z",
   "videos": [
+    {
+      "video_id": "0CqLVnx-2UM",
+      "title": "Anthropic Found Something That Shouldn't Exist",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-07-15T13:58:27Z",
+      "url": "https://www.youtube.com/watch?v=0CqLVnx-2UM",
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
+    },
     {
       "video_id": "Ae9q7KsRbuI",
       "title": "Minecraft Was Missing One Brilliant Idea",
       "channel_name": "Two Minute Papers",
       "published_at": "2026-07-12T15:48:43Z",
       "url": "https://www.youtube.com/watch?v=Ae9q7KsRbuI",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "1yBU41auQhw",
-      "title": "DeepSeek's Absolutely Insane AI Speed Hack",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-07-07T16:33:29Z",
-      "url": "https://www.youtube.com/watch?v=1yBU41auQhw",
       "transcript_preview": "[Supadata quota exceeded]",
       "ai_summary": "[No transcript available]"
     },
