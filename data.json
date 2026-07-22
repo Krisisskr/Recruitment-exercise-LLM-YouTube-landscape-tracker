@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-21T10:21:16.117458Z",
+  "last_updated": "2026-07-22T10:21:17.638479Z",
   "videos": [
     {
       "video_id": "axOcn--n_lM",
@@ -7,8 +7,8 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-07-16T15:39:17Z",
       "url": "https://www.youtube.com/watch?v=axOcn--n_lM",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "For thousands of years, humans have built tools to make hard things easier. A hammer does not make you worse at building. But is AI different because AI helps your brain, not your hands? And that raises an uncomfortable question. What happens to the skills we outsource? Is AI brain rot real? What sh...",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "0CqLVnx-2UM",
@@ -16,8 +16,8 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-07-15T13:58:27Z",
       "url": "https://www.youtube.com/watch?v=0CqLVnx-2UM",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "What would you see if your whole world was made out of numbers? Yes, like in the Matrix movie. A bat sees with sound. A reindeer shifts its vision into ultraviolet for the winter. But an AI system does not have eyes. All it sees is a flood of numbers. So, how come it can understand your questions? H...",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "tvaYPW0QSRk",
@@ -25,8 +25,8 @@
       "channel_name": "AI Ki Duniya",
       "published_at": "2026-06-24T18:30:31Z",
       "url": "https://www.youtube.com/watch?v=tvaYPW0QSRk",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "नमस्ते दोस्तों, मैं हूं मटका। आज मैं आपको एक मजेदार कहानी सुनाने वाला हूं। वीडियो को लाइक और सब्सक्राइब करना मत भूलना।",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "xHi8PUIVyoo",
@@ -34,8 +34,8 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2026-03-06T22:07:33Z",
       "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "Hello. Have you ever been in a situation where you're overhearing conversation and it dawns on you this person well intended is wrong about something minuscule but important to you and duty. The universe compels you to tell them why they're wrong. Watch this. I recycle plastic because it's good for ...",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "Dr6jw-WAd9E",
@@ -43,8 +43,8 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2025-12-29T03:44:20Z",
       "url": "https://www.youtube.com/watch?v=Dr6jw-WAd9E",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "Cool. Hello everyone. Um, as is tradition, uh, we're doing a Minecraft live stream for the holidays. Um, because it's fun. So, uh, yeah, keep in mind I am absolutely terrible at Minecraft. This is, so this is not a like, uh, a demonstration of skill or anything like this. Um, it's just, it's just fu...",
+      "ai_summary": "[Summary API error]"
     }
   ]
 }
