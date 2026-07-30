@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-07-29T10:33:56.144134Z",
+  "last_updated": "2026-07-30T10:19:40.220137Z",
   "videos": [
+    {
+      "video_id": "Xj-QdEUxJkE",
+      "title": "Kimi K3 Just Broke The Economics Of AI",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-07-29T12:37:50Z",
+      "url": "https://www.youtube.com/watch?v=Xj-QdEUxJkE",
+      "transcript_preview": "This is insane. I cannot believe what I'm seeing here. This is a new AI system, Kim K3, that can code up a mostly working copy of a full Mac OS operating system. Also, a cute Animal Crossing style game, other kinds of games, and so much more. And what are you seeing? What I am seeing? Yes, it is ver...",
+      "ai_summary": "[Summary API error]"
+    },
     {
       "video_id": "axOcn--n_lM",
       "title": "Claude Just Revealed AI's Biggest Problem",
@@ -8,15 +17,6 @@
       "published_at": "2026-07-16T15:39:17Z",
       "url": "https://www.youtube.com/watch?v=axOcn--n_lM",
       "transcript_preview": "For thousands of years, humans have built tools to make hard things easier. A hammer does not make you worse at building. But is AI different because AI helps your brain, not your hands? And that raises an uncomfortable question. What happens to the skills we outsource? Is AI brain rot real? What sh...",
-      "ai_summary": "[Summary API error]"
-    },
-    {
-      "video_id": "0CqLVnx-2UM",
-      "title": "Anthropic Found Something That Shouldn't Exist",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-07-15T13:58:27Z",
-      "url": "https://www.youtube.com/watch?v=0CqLVnx-2UM",
-      "transcript_preview": "What would you see if your whole world was made out of numbers? Yes, like in the Matrix movie. A bat sees with sound. A reindeer shifts its vision into ultraviolet for the winter. But an AI system does not have eyes. All it sees is a flood of numbers. So, how come it can understand your questions? H...",
       "ai_summary": "[Summary API error]"
     },
     {
