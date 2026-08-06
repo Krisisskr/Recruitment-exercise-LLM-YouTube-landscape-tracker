@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-08-05T10:29:40.687991Z",
+  "last_updated": "2026-08-06T10:33:40.719285Z",
   "videos": [
+    {
+      "video_id": "ppQh4Tc9BmM",
+      "title": "The Billion Dollar AI Race Just Broke",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-08-05T13:54:29Z",
+      "url": "https://www.youtube.com/watch?v=ppQh4Tc9BmM",
+      "transcript_preview": "This is insanity. We just got an amazing free AI system with Deep Seek Flash on the lower end. Super quick, super cheap. But what about the Open Frontier models? This is Quen 3.8 Max. And look, OpenAI and Anthropic are getting challenged there too. And not only that, but the price maybe even five to...",
+      "ai_summary": "[Summary API error]"
+    },
     {
       "video_id": "bm1BjOjS7sQ",
       "title": "Another DeepSeek Moment Has Arrived",
@@ -8,15 +17,6 @@
       "published_at": "2026-08-03T09:47:34Z",
       "url": "https://www.youtube.com/watch?v=bm1BjOjS7sQ",
       "transcript_preview": "It is simply incredible what just happened. Deep Seeks 2 latest AI systems appeared just about 3 months ago and the quicker flash model is getting an update already and this is unbelievable. I don't even know where to start. One, the new flash model is way better than the previous one. Many of these...",
-      "ai_summary": "[Summary API error]"
-    },
-    {
-      "video_id": "8B05cy3UuSE",
-      "title": "NVIDIA's AI Learns Why Copying Humans Isn't Enough",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-08-02T15:01:10Z",
-      "url": "https://www.youtube.com/watch?v=8B05cy3UuSE",
-      "transcript_preview": "This is one of the most fun papers I've read in a while. You will love this one. So, what if you knew every athletic move perfectly, but had no idea when to use which? A perfect vault is useless if the table moves away. This is the strange problem of teaching parkour to a virtual human. Systems that...",
       "ai_summary": "[Summary API error]"
     },
     {
