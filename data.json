@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-08-06T10:33:40.719285Z",
+  "last_updated": "2026-08-07T08:52:27.738487Z",
   "videos": [
+    {
+      "video_id": "vO6SWG-jxvE",
+      "title": "DeepMind's AI Trick Everyone Should Copy",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-08-07T08:22:00Z",
+      "url": "https://www.youtube.com/watch?v=vO6SWG-jxvE",
+      "transcript_preview": "Finally, something amazing happened. You see, today AI models have become almost comically large. Some of the biggest open and free AI models, like DeepSeek, reached over 1.6 trillion parameters in size. And that's not even the biggest one. So, these cost hundreds of thousands of dollars to run. And...",
+      "ai_summary": "[Summary API error]"
+    },
     {
       "video_id": "ppQh4Tc9BmM",
       "title": "The Billion Dollar AI Race Just Broke",
@@ -8,15 +17,6 @@
       "published_at": "2026-08-05T13:54:29Z",
       "url": "https://www.youtube.com/watch?v=ppQh4Tc9BmM",
       "transcript_preview": "This is insanity. We just got an amazing free AI system with Deep Seek Flash on the lower end. Super quick, super cheap. But what about the Open Frontier models? This is Quen 3.8 Max. And look, OpenAI and Anthropic are getting challenged there too. And not only that, but the price maybe even five to...",
-      "ai_summary": "[Summary API error]"
-    },
-    {
-      "video_id": "bm1BjOjS7sQ",
-      "title": "Another DeepSeek Moment Has Arrived",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-08-03T09:47:34Z",
-      "url": "https://www.youtube.com/watch?v=bm1BjOjS7sQ",
-      "transcript_preview": "It is simply incredible what just happened. Deep Seeks 2 latest AI systems appeared just about 3 months ago and the quicker flash model is getting an update already and this is unbelievable. I don't even know where to start. One, the new flash model is way better than the previous one. Many of these...",
       "ai_summary": "[Summary API error]"
     },
     {
