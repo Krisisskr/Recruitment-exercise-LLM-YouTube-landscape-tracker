@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10T09:13:21.619430Z",
+  "last_updated": "2026-08-11T08:47:54.722315Z",
   "videos": [
     {
       "video_id": "vO6SWG-jxvE",
@@ -7,8 +7,8 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-08-07T08:22:00Z",
       "url": "https://www.youtube.com/watch?v=vO6SWG-jxvE",
-      "transcript_preview": "Finally, something amazing happened. You see, today AI models have become almost comically large. Some of the biggest open and free AI models, like DeepSeek, reached over 1.6 trillion parameters in size. And that's not even the biggest one. So, these cost hundreds of thousands of dollars to run. And...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "ppQh4Tc9BmM",
@@ -16,8 +16,8 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-08-05T13:54:29Z",
       "url": "https://www.youtube.com/watch?v=ppQh4Tc9BmM",
-      "transcript_preview": "This is insanity. We just got an amazing free AI system with Deep Seek Flash on the lower end. Super quick, super cheap. But what about the Open Frontier models? This is Quen 3.8 Max. And look, OpenAI and Anthropic are getting challenged there too. And not only that, but the price maybe even five to...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "tvaYPW0QSRk",
@@ -25,8 +25,8 @@
       "channel_name": "AI Ki Duniya",
       "published_at": "2026-06-24T18:30:31Z",
       "url": "https://www.youtube.com/watch?v=tvaYPW0QSRk",
-      "transcript_preview": "नमस्ते दोस्तों, मैं हूं मटका। आज मैं आपको एक मजेदार कहानी सुनाने वाला हूं। वीडियो को लाइक और सब्सक्राइब करना मत भूलना।",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "xHi8PUIVyoo",
@@ -34,8 +34,8 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2026-03-06T22:07:33Z",
       "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo",
-      "transcript_preview": "Hello. Have you ever been in a situation where you're overhearing conversation and it dawns on you this person well intended is wrong about something minuscule but important to you and duty. The universe compels you to tell them why they're wrong. Watch this. I recycle plastic because it's good for ...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "Dr6jw-WAd9E",
@@ -43,8 +43,8 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2025-12-29T03:44:20Z",
       "url": "https://www.youtube.com/watch?v=Dr6jw-WAd9E",
-      "transcript_preview": "Cool. Hello everyone. Um, as is tradition, uh, we're doing a Minecraft live stream for the holidays. Um, because it's fun. So, uh, yeah, keep in mind I am absolutely terrible at Minecraft. This is, so this is not a like, uh, a demonstration of skill or anything like this. Um, it's just, it's just fu...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
     }
   ]
 }
