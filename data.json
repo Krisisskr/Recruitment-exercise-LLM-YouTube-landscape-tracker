@@ -1,21 +1,21 @@
 {
-  "last_updated": "2026-08-13T09:06:13.485252Z",
+  "last_updated": "2026-08-14T09:02:25.205080Z",
   "videos": [
+    {
+      "video_id": "QnGNF8k_uoc",
+      "title": "Claude AI Failed 650 Times…Then Beat The Human Record",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-08-14T08:42:07Z",
+      "url": "https://www.youtube.com/watch?v=QnGNF8k_uoc",
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
+    },
     {
       "video_id": "JQ97GiDwPxc",
       "title": "OpenAI’s AI Agents Just Crossed A Line",
       "channel_name": "Two Minute Papers",
       "published_at": "2026-08-11T15:35:35Z",
       "url": "https://www.youtube.com/watch?v=JQ97GiDwPxc",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "vO6SWG-jxvE",
-      "title": "DeepMind Just Changed How AI Sees The World",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-08-07T08:22:00Z",
-      "url": "https://www.youtube.com/watch?v=vO6SWG-jxvE",
       "transcript_preview": "[Supadata quota exceeded]",
       "ai_summary": "[No transcript available]"
     },
