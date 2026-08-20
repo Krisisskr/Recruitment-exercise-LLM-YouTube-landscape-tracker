@@ -1,21 +1,21 @@
 {
-  "last_updated": "2026-08-19T08:30:13.362448Z",
+  "last_updated": "2026-08-20T08:31:27.239324Z",
   "videos": [
+    {
+      "video_id": "kyYepbhe1g8",
+      "title": "DeepSeek Just Made Closed AI Look Ridiculous",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-08-19T18:02:46Z",
+      "url": "https://www.youtube.com/watch?v=kyYepbhe1g8",
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
+    },
     {
       "video_id": "QnGNF8k_uoc",
       "title": "Claude AI Failed 650 Times…Then Beat The Human Record",
       "channel_name": "Two Minute Papers",
       "published_at": "2026-08-14T08:42:07Z",
       "url": "https://www.youtube.com/watch?v=QnGNF8k_uoc",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "JQ97GiDwPxc",
-      "title": "OpenAI’s AI Agents Just Crossed A Line",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-08-11T15:35:35Z",
-      "url": "https://www.youtube.com/watch?v=JQ97GiDwPxc",
       "transcript_preview": "[Supadata quota exceeded]",
       "ai_summary": "[No transcript available]"
     },
