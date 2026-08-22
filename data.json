@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21T08:33:28.286626Z",
+  "last_updated": "2026-08-22T08:21:40.718077Z",
   "videos": [
     {
       "video_id": "kyYepbhe1g8",
@@ -7,8 +7,8 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-08-19T18:02:46Z",
       "url": "https://www.youtube.com/watch?v=kyYepbhe1g8",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "Yes, DeepSeek 4 Pro is here. This time, the real one. I know it gets confusing. The previous version was called preview, and this is called 0813. The numbers say it performs better than the much smaller flash version. When building a Rubik's Cube, flash did not completely understand the 3D structure...",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "QnGNF8k_uoc",
@@ -16,8 +16,8 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-08-14T08:42:07Z",
       "url": "https://www.youtube.com/watch?v=QnGNF8k_uoc",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "What is happening? An unreleased version of Claude was asked to solve a long-standing mathematical problem, the Riemann hypothesis. Simplified, it is a statement about the distribution of prime numbers. Devilishly difficult. No human has ever been able to prove it. Did it solve it? Nope. >> [laughte...",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "tvaYPW0QSRk",
@@ -25,8 +25,8 @@
       "channel_name": "AI Ki Duniya",
       "published_at": "2026-06-24T18:30:31Z",
       "url": "https://www.youtube.com/watch?v=tvaYPW0QSRk",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "नमस्ते दोस्तों, मैं हूं मटका। आज मैं आपको एक मजेदार कहानी सुनाने वाला हूं। वीडियो को लाइक और सब्सक्राइब करना मत भूलना।",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "xHi8PUIVyoo",
@@ -34,8 +34,8 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2026-03-06T22:07:33Z",
       "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "Hello. Have you ever been in a situation where you're overhearing conversation and it dawns on you this person well intended is wrong about something minuscule but important to you and duty. The universe compels you to tell them why they're wrong. Watch this. I recycle plastic because it's good for ...",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "Dr6jw-WAd9E",
@@ -43,8 +43,8 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2025-12-29T03:44:20Z",
       "url": "https://www.youtube.com/watch?v=Dr6jw-WAd9E",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "Cool. Hello everyone. Um, as is tradition, uh, we're doing a Minecraft live stream for the holidays. Um, because it's fun. So, uh, yeah, keep in mind I am absolutely terrible at Minecraft. This is, so this is not a like, uh, a demonstration of skill or anything like this. Um, it's just, it's just fu...",
+      "ai_summary": "[Summary API error]"
     }
   ]
 }
