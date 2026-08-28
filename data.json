@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-08-27T18:45:08.161632Z",
+  "last_updated": "2026-08-28T19:50:38.673045Z",
   "videos": [
+    {
+      "video_id": "LBiNcdGNgrg",
+      "title": "This Free AI Just Caught The Billion Dollar Giants",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-08-28T09:44:44Z",
+      "url": "https://www.youtube.com/watch?v=LBiNcdGNgrg",
+      "transcript_preview": "This is the new Quen 3.8 Flash Next AI and the first results look fantastic. Incredible system and we are lucky to get so many of these open and free AI systems that it's easy to confuse which is which fellow scholars that is a very good problem to have and it seems that we can switch out paid close...",
+      "ai_summary": "[Summary API error]"
+    },
     {
       "video_id": "L9mMfAFwbl4",
       "title": "DeepSeek’s New AI System Shouldn’t Be Possible",
@@ -8,15 +17,6 @@
       "published_at": "2026-08-26T13:10:13Z",
       "url": "https://www.youtube.com/watch?v=L9mMfAFwbl4",
       "transcript_preview": "I love this idea. This is a computer program that writes itself. Just ask for something that doesn't exist, and there it is. A self-extending AI, if you will. Okay, so what is this? Deep Seek has given us amazing free and open weights AI systems, and now a free and open-source harness. This is what ...",
-      "ai_summary": "[Summary API error]"
-    },
-    {
-      "video_id": "wMl6c_r0ubw",
-      "title": "This Small AI Will Change Everything",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-08-24T16:48:40Z",
-      "url": "https://www.youtube.com/watch?v=wMl6c_r0ubw",
-      "transcript_preview": "This is an amazing open weights AI system free for all of us called Quen 3.8. This is the smaller brother and this is the one that will change the world the most. Millions and millions of downloads in less than a week and it feels like it can do everything. Unless you need Frontier Stuff, it does al...",
       "ai_summary": "[Summary API error]"
     },
     {
