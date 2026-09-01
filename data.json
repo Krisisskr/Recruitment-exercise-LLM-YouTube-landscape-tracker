@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-08-31T15:45:58.112304Z",
+  "last_updated": "2026-09-01T12:58:53.272913Z",
   "videos": [
+    {
+      "video_id": "w9RDunJACkc",
+      "title": "GLM 5.3: Powerful AI Is Becoming Almost Free",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-09-01T09:04:56Z",
+      "url": "https://www.youtube.com/watch?v=w9RDunJACkc",
+      "transcript_preview": "I am running this AI at home and it can do light simulations computing a beautiful image like this. [laughter] Look at that yummy costics too. Oh my. It can write up a fun strategy game. It can model a beautiful full 3D scene in free and open-source software like Blender. It is incredibly good and a...",
+      "ai_summary": "[Summary API error]"
+    },
     {
       "video_id": "LBiNcdGNgrg",
       "title": "The Billion Dollar AI Gap Is Collapsing",
@@ -8,15 +17,6 @@
       "published_at": "2026-08-28T09:44:44Z",
       "url": "https://www.youtube.com/watch?v=LBiNcdGNgrg",
       "transcript_preview": "This is the new Qwen 3.8 Flash Next AI and the first results look fantastic. Incredible system and we are lucky to get so many of these open and free AI systems that it's easy to confuse which is which. Fellow scholars, that is a very good problem to have and it seems that we can switch out paid clo...",
-      "ai_summary": "[Summary API error]"
-    },
-    {
-      "video_id": "L9mMfAFwbl4",
-      "title": "DeepSeek’s New AI System Shouldn’t Be Possible",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-08-26T13:10:13Z",
-      "url": "https://www.youtube.com/watch?v=L9mMfAFwbl4",
-      "transcript_preview": "I love this idea. This is a computer program that writes itself. Just ask for something that doesn't exist, and there it is. A self-extending AI, if you will. Okay, so what is this? Deep Seek has given us amazing free and open weights AI systems, and now a free and open-source harness. This is what ...",
       "ai_summary": "[Summary API error]"
     },
     {
