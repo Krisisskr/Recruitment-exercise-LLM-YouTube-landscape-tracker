@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-09-02T12:28:08.514811Z",
+  "last_updated": "2026-09-03T12:29:53.785717Z",
   "videos": [
+    {
+      "video_id": "B3LXEW4Pc-w",
+      "title": "Claude Fable AI Is Much Stranger Than The Headlines Suggest",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-09-03T08:23:37Z",
+      "url": "https://www.youtube.com/watch?v=B3LXEW4Pc-w",
+      "transcript_preview": "Claude Fable 5.1 is here and you fellow scholars are having a super fun time creating little games with it. I took one for the team too with a subscription and also tried my hand to recreate a legendary game menu and that is incredible that we can do this today. Took 6 and 12 minutes. Wow. But in th...",
+      "ai_summary": "[Summary API error]"
+    },
     {
       "video_id": "w9RDunJACkc",
       "title": "GLM 5.3: Powerful AI Is Becoming Almost Free",
@@ -8,15 +17,6 @@
       "published_at": "2026-09-01T09:04:56Z",
       "url": "https://www.youtube.com/watch?v=w9RDunJACkc",
       "transcript_preview": "I am running this AI at home, and it can do light simulations computing a beautiful image like this. >> [laughter] >> Look at that. Yummy caustics, too. Oh my. It can write up a fun strategy game. It can model a beautiful full 3D scene in free and open-source software like Blender. It is incredibly ...",
-      "ai_summary": "[Summary API error]"
-    },
-    {
-      "video_id": "LBiNcdGNgrg",
-      "title": "The Billion Dollar AI Gap Is Collapsing",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-08-28T09:44:44Z",
-      "url": "https://www.youtube.com/watch?v=LBiNcdGNgrg",
-      "transcript_preview": "This is the new Qwen 3.8 Flash Next AI and the first results look fantastic. Incredible system and we are lucky to get so many of these open and free AI systems that it's easy to confuse which is which. Fellow scholars, that is a very good problem to have and it seems that we can switch out paid clo...",
       "ai_summary": "[Summary API error]"
     },
     {
