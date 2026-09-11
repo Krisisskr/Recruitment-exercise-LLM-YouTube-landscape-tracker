@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T12:38:37.978788Z",
+  "last_updated": "2026-09-11T12:30:55.367561Z",
   "videos": [
     {
       "video_id": "mOvtumfyjCs",
@@ -7,8 +7,8 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-09-10T08:47:23Z",
       "url": "https://www.youtube.com/watch?v=mOvtumfyjCs",
-      "transcript_preview": "I did not think I would live to see the day when this mathematical problem gets solved and I just did likely. So I am kind of sitting here in disbelief something that nobody has ever been able to prove. The Navier Stokes existence and smoothness problem has been very likely solved. Open AAI says thi...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "eVBJIUxv8N8",
@@ -16,8 +16,8 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-09-08T08:24:27Z",
       "url": "https://www.youtube.com/watch?v=eVBJIUxv8N8",
-      "transcript_preview": "Holy matter of papers, GPT-6 Astra has arrived and I am stunned. We talk a lot about open weights models getting closer to the frontier and for free and then this happens. This AI system is so good. It almost makes everything else look like a toy and wait until we look into the paper. Wow, I did sup...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "tvaYPW0QSRk",
@@ -25,8 +25,8 @@
       "channel_name": "AI Ki Duniya",
       "published_at": "2026-06-24T18:30:31Z",
       "url": "https://www.youtube.com/watch?v=tvaYPW0QSRk",
-      "transcript_preview": "नमस्ते दोस्तों, मैं हूं मटका। आज मैं आपको एक मजेदार कहानी सुनाने वाला हूं। वीडियो को लाइक और सब्सक्राइब करना मत भूलना।",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "xHi8PUIVyoo",
@@ -34,8 +34,8 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2026-03-06T22:07:33Z",
       "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo",
-      "transcript_preview": "Hello. Have you ever been in a situation where you're overhearing conversation and it dawns on you this person well intended is wrong about something minuscule but important to you and duty. The universe compels you to tell them why they're wrong. Watch this. I recycle plastic because it's good for ...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "Dr6jw-WAd9E",
@@ -43,8 +43,8 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2025-12-29T03:44:20Z",
       "url": "https://www.youtube.com/watch?v=Dr6jw-WAd9E",
-      "transcript_preview": "Cool. Hello everyone. Um, as is tradition, uh, we're doing a Minecraft live stream for the holidays. Um, because it's fun. So, uh, yeah, keep in mind I am absolutely terrible at Minecraft. This is, so this is not a like, uh, a demonstration of skill or anything like this. Um, it's just, it's just fu...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
     }
   ]
 }
