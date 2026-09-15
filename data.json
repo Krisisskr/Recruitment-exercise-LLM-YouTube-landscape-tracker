@@ -1,21 +1,21 @@
 {
-  "last_updated": "2026-09-14T14:39:29.803016Z",
+  "last_updated": "2026-09-15T13:04:07.014190Z",
   "videos": [
+    {
+      "video_id": "YoEWjZSwoys",
+      "title": "Claude Is Now Leaving Invisible Fingerprints In Its Text",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-09-15T10:12:34Z",
+      "url": "https://www.youtube.com/watch?v=YoEWjZSwoys",
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
+    },
     {
       "video_id": "mOvtumfyjCs",
       "title": "I Never Thought I’d See This Happen",
       "channel_name": "Two Minute Papers",
       "published_at": "2026-09-10T08:47:23Z",
       "url": "https://www.youtube.com/watch?v=mOvtumfyjCs",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "eVBJIUxv8N8",
-      "title": "GPT-6 Astra Changes Everything",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-09-08T08:24:27Z",
-      "url": "https://www.youtube.com/watch?v=eVBJIUxv8N8",
       "transcript_preview": "[Supadata quota exceeded]",
       "ai_summary": "[No transcript available]"
     },
