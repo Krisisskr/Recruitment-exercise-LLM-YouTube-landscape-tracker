@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15T13:04:07.014190Z",
+  "last_updated": "2026-09-16T13:01:20.045801Z",
   "videos": [
     {
       "video_id": "YoEWjZSwoys",
@@ -7,7 +7,7 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-09-15T10:12:34Z",
       "url": "https://www.youtube.com/watch?v=YoEWjZSwoys",
-      "transcript_preview": "[Supadata quota exceeded]",
+      "transcript_preview": "[Transcript unavailable]",
       "ai_summary": "[No transcript available]"
     },
     {
@@ -43,7 +43,7 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2025-12-29T03:44:20Z",
       "url": "https://www.youtube.com/watch?v=Dr6jw-WAd9E",
-      "transcript_preview": "[Supadata quota exceeded]",
+      "transcript_preview": "[Transcript unavailable]",
       "ai_summary": "[No transcript available]"
     }
   ]
