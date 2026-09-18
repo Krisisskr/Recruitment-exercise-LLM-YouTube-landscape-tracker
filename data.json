@@ -1,21 +1,21 @@
 {
-  "last_updated": "2026-09-17T12:58:33.625100Z",
+  "last_updated": "2026-09-18T12:37:03.876856Z",
   "videos": [
+    {
+      "video_id": "vIHw_2VjSUw",
+      "title": "DeepSeek’s Insane New Architecture",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-09-18T07:03:46Z",
+      "url": "https://www.youtube.com/watch?v=vIHw_2VjSUw",
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
+    },
     {
       "video_id": "YoEWjZSwoys",
       "title": "Claude Is Now Leaving Invisible Fingerprints In Its Text",
       "channel_name": "Two Minute Papers",
       "published_at": "2026-09-15T10:12:34Z",
       "url": "https://www.youtube.com/watch?v=YoEWjZSwoys",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "mOvtumfyjCs",
-      "title": "I Never Thought I’d See This Happen",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-09-10T08:47:23Z",
-      "url": "https://www.youtube.com/watch?v=mOvtumfyjCs",
       "transcript_preview": "[Supadata quota exceeded]",
       "ai_summary": "[No transcript available]"
     },
