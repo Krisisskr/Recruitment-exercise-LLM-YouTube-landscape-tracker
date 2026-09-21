@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-20T12:48:54.775350Z",
+  "last_updated": "2026-09-21T14:47:00.222645Z",
   "videos": [
     {
       "video_id": "vIHw_2VjSUw",
@@ -7,8 +7,8 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-09-18T07:03:46Z",
       "url": "https://www.youtube.com/watch?v=vIHw_2VjSUw",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "The new DeepSk is here. 4.1 Flash and it is Wow. Look at that. It is incredibly fast. And I was also stunned by this. Look, it can outperform Claude Opus 5 Kim K3 on some tests, not everything. We'll see about that. But there is a catch. I'll show you at the end. It also reliably outperforms DeepSee...",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "YoEWjZSwoys",
@@ -16,8 +16,8 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-09-15T10:12:34Z",
       "url": "https://www.youtube.com/watch?v=YoEWjZSwoys",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "Images can be watermarked for copy protection. Now, get this. Claude AI announced that they are watermarking the text you generate with it. From when? When does this start? Well, Anthropic is rolling this out right now. Yep. I am not talking about this because I agree with it, but because I think it...",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "tvaYPW0QSRk",
@@ -25,8 +25,8 @@
       "channel_name": "AI Ki Duniya",
       "published_at": "2026-06-24T18:30:31Z",
       "url": "https://www.youtube.com/watch?v=tvaYPW0QSRk",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "नमस्ते दोस्तों, मैं हूं मटका। आज मैं आपको एक मजेदार कहानी सुनाने वाला हूं। वीडियो को लाइक और सब्सक्राइब करना मत भूलना।",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "xHi8PUIVyoo",
@@ -34,8 +34,8 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2026-03-06T22:07:33Z",
       "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "Hello. Have you ever been in a situation where you're overhearing conversation and it dawns on you this person well intended is wrong about something minuscule but important to you and duty. The universe compels you to tell them why they're wrong. Watch this. I recycle plastic because it's good for ...",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "Dr6jw-WAd9E",
@@ -43,8 +43,8 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2025-12-29T03:44:20Z",
       "url": "https://www.youtube.com/watch?v=Dr6jw-WAd9E",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "Cool. Hello everyone. Um, as is tradition, uh, we're doing a Minecraft live stream for the holidays. Um, because it's fun. So, uh, yeah, keep in mind I am absolutely terrible at Minecraft. This is, so this is not a like, uh, a demonstration of skill or anything like this. Um, it's just, it's just fu...",
+      "ai_summary": "[Summary API error]"
     }
   ]
 }
