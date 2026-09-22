@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-09-21T14:47:00.222645Z",
+  "last_updated": "2026-09-22T13:01:29.843852Z",
   "videos": [
+    {
+      "video_id": "qBBRRsH0rQc",
+      "title": "Yes, Jev Is Insane, But There's A Catch",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-09-22T09:32:13Z",
+      "url": "https://www.youtube.com/watch?v=qBBRRsH0rQc",
+      "transcript_preview": "A new AI called Jev is taking the world by storm. But why get excited for an AI system that can't even write text? It properly run over the internet. So let's try to separate the facts from the hype. Okay, so it does not write text. Instead, it makes decisions, a question, and some options go in. On...",
+      "ai_summary": "[Summary API error]"
+    },
     {
       "video_id": "vIHw_2VjSUw",
       "title": "DeepSeek’s Insane New Architecture",
@@ -8,15 +17,6 @@
       "published_at": "2026-09-18T07:03:46Z",
       "url": "https://www.youtube.com/watch?v=vIHw_2VjSUw",
       "transcript_preview": "The new DeepSk is here. 4.1 Flash and it is Wow. Look at that. It is incredibly fast. And I was also stunned by this. Look, it can outperform Claude Opus 5 Kim K3 on some tests, not everything. We'll see about that. But there is a catch. I'll show you at the end. It also reliably outperforms DeepSee...",
-      "ai_summary": "[Summary API error]"
-    },
-    {
-      "video_id": "YoEWjZSwoys",
-      "title": "Claude Is Now Leaving Invisible Fingerprints In Its Text",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-09-15T10:12:34Z",
-      "url": "https://www.youtube.com/watch?v=YoEWjZSwoys",
-      "transcript_preview": "Images can be watermarked for copy protection. Now, get this. Claude AI announced that they are watermarking the text you generate with it. From when? When does this start? Well, Anthropic is rolling this out right now. Yep. I am not talking about this because I agree with it, but because I think it...",
       "ai_summary": "[Summary API error]"
     },
     {
