@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-09-23T13:15:35.760162Z",
+  "last_updated": "2026-09-24T13:06:22.797568Z",
   "videos": [
+    {
+      "video_id": "SA9kdAX2Zj0",
+      "title": "Claude Opus 5.5 AI: An Incredible Leap Forward",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-09-24T08:40:55Z",
+      "url": "https://www.youtube.com/watch?v=SA9kdAX2Zj0",
+      "transcript_preview": "Okay, this is stunning. Finally, I tried Claude Opus 5.5 and it did something that no other AI system ever could. First, I asked it to reproduce this beautiful honey coiling footage, which is actually not from real life. No, this is a computer simulation from a really advanced research paper. I aske...",
+      "ai_summary": "[Summary API error]"
+    },
     {
       "video_id": "qBBRRsH0rQc",
       "title": "Yes, Jev Is Insane, But There's A Catch",
@@ -8,15 +17,6 @@
       "published_at": "2026-09-22T09:32:13Z",
       "url": "https://www.youtube.com/watch?v=qBBRRsH0rQc",
       "transcript_preview": "A new AI called Jev is taking the world by storm. But why get excited for an AI system that can't even write text? It properly run over the internet. So let's try to separate the facts from the hype. Okay, so it does not write text. Instead, it makes decisions, a question, and some options go in. On...",
-      "ai_summary": "[Summary API error]"
-    },
-    {
-      "video_id": "vIHw_2VjSUw",
-      "title": "DeepSeek’s Insane New Architecture",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-09-18T07:03:46Z",
-      "url": "https://www.youtube.com/watch?v=vIHw_2VjSUw",
-      "transcript_preview": "The new DeepSk is here. 4.1 Flash and it is Wow. Look at that. It is incredibly fast. And I was also stunned by this. Look, it can outperform Claude Opus 5 Kim K3 on some tests, not everything. We'll see about that. But there is a catch. I'll show you at the end. It also reliably outperforms DeepSee...",
       "ai_summary": "[Summary API error]"
     },
     {
