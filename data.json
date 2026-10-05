@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-10-04T13:37:42.204951Z",
+  "last_updated": "2026-10-05T16:43:01.400005Z",
   "videos": [
+    {
+      "video_id": "ZHVNTTKu9fU",
+      "title": "The Billion Dollar AI Advantage Is Disappearing",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-10-05T09:53:12Z",
+      "url": "https://www.youtube.com/watch?v=ZHVNTTKu9fU",
+      "transcript_preview": "Sonnet 5.5 is an incredibly important AI release. I ran my experiments and was completely stunned that it was able to reproduce this research work called AVBD that simulates the physics of a lot of objects colliding. That is incredibly difficult because it has to keep collisions friction joints phys...",
+      "ai_summary": "[Summary API error]"
+    },
     {
       "video_id": "SA9kdAX2Zj0",
       "title": "Claude Opus 5.5 AI: An Incredible Leap Forward",
@@ -8,15 +17,6 @@
       "published_at": "2026-09-24T08:40:55Z",
       "url": "https://www.youtube.com/watch?v=SA9kdAX2Zj0",
       "transcript_preview": "Okay, this is stunning. Finally, I tried Cloud Opus 5.5 and it did something that no other AI system ever could. First, I asked it to reproduce this beautiful honey coiling footage, which is actually not from real life. No, this is a computer simulation from a really advanced research paper. I asked...",
-      "ai_summary": "[Summary API error]"
-    },
-    {
-      "video_id": "qBBRRsH0rQc",
-      "title": "Yes, Jev Is Insane, But There's A Catch",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-09-22T09:32:13Z",
-      "url": "https://www.youtube.com/watch?v=qBBRRsH0rQc",
-      "transcript_preview": "A new AI called Jev is taking the world by storm. But why get excited for an AI system that can't even write text? It properly run over the internet. So let's try to separate the facts from the hype. Okay, so it does not write text. Instead, it makes decisions, a question, and some options go in. On...",
       "ai_summary": "[Summary API error]"
     },
     {
