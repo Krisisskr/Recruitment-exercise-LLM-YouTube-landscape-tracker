@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-10-06T14:40:27.344280Z",
+  "last_updated": "2026-10-07T15:00:20.063823Z",
   "videos": [
+    {
+      "video_id": "Wkaw03p3BrM",
+      "title": "DeepMind's New AI Just Cracked The Code Of Life",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-10-07T13:29:33Z",
+      "url": "https://www.youtube.com/watch?v=Wkaw03p3BrM",
+      "transcript_preview": "If you can completely sort of really understand the workings of a cell, that will have amazing consequences for the fight against diseases like cancer. >> I feel like I've been dropped into a science fiction movie. Like we we could only dream of of having technology like this when I was a child. Now...",
+      "ai_summary": "[Summary API error]"
+    },
     {
       "video_id": "ZHVNTTKu9fU",
       "title": "The Billion Dollar AI Advantage Is Disappearing",
@@ -8,15 +17,6 @@
       "published_at": "2026-10-05T09:53:12Z",
       "url": "https://www.youtube.com/watch?v=ZHVNTTKu9fU",
       "transcript_preview": "Sonnet 5.5 is an incredibly important AI release. I ran my experiments and was completely stunned that it was able to reproduce this research work called AVBD that simulates the physics of a lot of objects colliding. That is incredibly difficult because it has to keep collisions friction joints phys...",
-      "ai_summary": "[Summary API error]"
-    },
-    {
-      "video_id": "SA9kdAX2Zj0",
-      "title": "Claude Opus 5.5 AI: An Incredible Leap Forward",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-09-24T08:40:55Z",
-      "url": "https://www.youtube.com/watch?v=SA9kdAX2Zj0",
-      "transcript_preview": "Okay, this is stunning. Finally, I tried Cloud Opus 5.5 and it did something that no other AI system ever could. First, I asked it to reproduce this beautiful honey coiling footage, which is actually not from real life. No, this is a computer simulation from a really advanced research paper. I asked...",
       "ai_summary": "[Summary API error]"
     },
     {
