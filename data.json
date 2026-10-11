@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-10T14:09:50.613984Z",
+  "last_updated": "2026-10-11T14:34:07.226404Z",
   "videos": [
     {
       "video_id": "Wkaw03p3BrM",
@@ -7,8 +7,8 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-10-07T13:29:33Z",
       "url": "https://www.youtube.com/watch?v=Wkaw03p3BrM",
-      "transcript_preview": "If you can completely sort of really understand the workings of a cell, that will have amazing consequences for the fight against diseases like cancer. >> I feel like I've been dropped into a science fiction movie. Like we we could only dream of of having technology like this when I was a child. Now...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "ZHVNTTKu9fU",
@@ -16,8 +16,8 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-10-05T09:53:12Z",
       "url": "https://www.youtube.com/watch?v=ZHVNTTKu9fU",
-      "transcript_preview": "Sonnet 5.5 is an incredibly important AI release. I ran my experiments and was completely stunned that it was able to reproduce this research work called AVBD that simulates the physics of a lot of objects colliding. That is incredibly difficult because it has to keep collisions friction joints phys...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "tvaYPW0QSRk",
@@ -25,8 +25,8 @@
       "channel_name": "AI Ki Duniya",
       "published_at": "2026-06-24T18:30:31Z",
       "url": "https://www.youtube.com/watch?v=tvaYPW0QSRk",
-      "transcript_preview": "नमस्ते दोस्तों, मैं हूं मटका। आज मैं आपको एक मजेदार कहानी सुनाने वाला हूं। वीडियो को लाइक और सब्सक्राइब करना मत भूलना।",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "xHi8PUIVyoo",
@@ -34,8 +34,8 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2026-03-06T22:07:33Z",
       "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo",
-      "transcript_preview": "Hello. Have you ever been in a situation where you're overhearing conversation and it dawns on you this person well intended is wrong about something minuscule but important to you and duty. The universe compels you to tell them why they're wrong. Watch this. I recycle plastic because it's good for ...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
     },
     {
       "video_id": "Dr6jw-WAd9E",
@@ -43,8 +43,8 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2025-12-29T03:44:20Z",
       "url": "https://www.youtube.com/watch?v=Dr6jw-WAd9E",
-      "transcript_preview": "Cool. Hello everyone. Um, as is tradition, uh, we're doing a Minecraft live stream for the holidays. Um, because it's fun. So, uh, yeah, keep in mind I am absolutely terrible at Minecraft. This is, so this is not a like, uh, a demonstration of skill or anything like this. Um, it's just, it's just fu...",
-      "ai_summary": "[Summary API error]"
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
     }
   ]
 }
