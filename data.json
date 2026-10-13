@@ -1,21 +1,21 @@
 {
-  "last_updated": "2026-10-12T17:15:42.411194Z",
+  "last_updated": "2026-10-13T15:30:20.671689Z",
   "videos": [
+    {
+      "video_id": "z_sXLlLVUls",
+      "title": "OpenAI Just Changed What It Means To Do Math",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-10-13T08:56:12Z",
+      "url": "https://www.youtube.com/watch?v=z_sXLlLVUls",
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
+    },
     {
       "video_id": "4fLVq6HJsKc",
       "title": "DeepSeek Solved AI’s Memory Problem",
       "channel_name": "Two Minute Papers",
       "published_at": "2026-10-11T16:53:17Z",
       "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "Wkaw03p3BrM",
-      "title": "DeepMind's New AI Just Cracked The Code Of Life",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-10-07T13:29:33Z",
-      "url": "https://www.youtube.com/watch?v=Wkaw03p3BrM",
       "transcript_preview": "[Supadata quota exceeded]",
       "ai_summary": "[No transcript available]"
     },
