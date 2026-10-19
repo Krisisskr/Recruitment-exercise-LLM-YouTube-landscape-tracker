@@ -1,21 +1,21 @@
 {
-  "last_updated": "2026-10-18T12:23:41.178931Z",
+  "last_updated": "2026-10-19T15:12:34.816089Z",
   "videos": [
+    {
+      "video_id": "LWxX6vvHfrc",
+      "title": "Gemini 4 Argon Really Surprised Me",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-10-19T08:49:21Z",
+      "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
+    },
     {
       "video_id": "z_sXLlLVUls",
       "title": "OpenAI’s New AI Is Doing Things We Barely Understand",
       "channel_name": "Two Minute Papers",
       "published_at": "2026-10-13T08:56:12Z",
       "url": "https://www.youtube.com/watch?v=z_sXLlLVUls",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "4fLVq6HJsKc",
-      "title": "DeepSeek Solved AI’s Memory Problem",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-10-11T16:53:17Z",
-      "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
       "transcript_preview": "[Supadata quota exceeded]",
       "ai_summary": "[No transcript available]"
     },
