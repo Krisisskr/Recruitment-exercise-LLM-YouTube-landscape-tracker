@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-10-28T14:47:16.792215Z",
+  "last_updated": "2026-10-29T14:53:26.518146Z",
   "videos": [
+    {
+      "video_id": "pryCaGv8wuo",
+      "title": "DeepSeek's New AI Is An Absolute Monster",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-10-28T17:32:40Z",
+      "url": "https://www.youtube.com/watch?v=pryCaGv8wuo",
+      "transcript_preview": "Good news everyone, a new DeepSeek AI system is available. Hooray. So, is this a small or a big jump in AI capabilities? Well, doesn't sound big because the previous version was 4.1 Flash and this one is called 4.1 Flash 1017. I know names. Only about 5 weeks have passed since the last version and t...",
+      "ai_summary": "[Summary API error]"
+    },
     {
       "video_id": "LWxX6vvHfrc",
       "title": "Gemini 4 Argon Is Not What I Expected",
@@ -8,15 +17,6 @@
       "published_at": "2026-10-19T08:49:21Z",
       "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
       "transcript_preview": "and Gemini 4 organ is finally here. I will try to show you less of the official demos and more that are out there in the wild done by you fellow scholars and I'll show you my experiments too which I found very surprising. I'll talk about the good, the bad, and the long. First, the good. People are e...",
-      "ai_summary": "[Summary API error]"
-    },
-    {
-      "video_id": "z_sXLlLVUls",
-      "title": "OpenAI’s New AI Is Doing Things We Barely Understand",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-10-13T08:56:12Z",
-      "url": "https://www.youtube.com/watch?v=z_sXLlLVUls",
-      "transcript_preview": "Something is changing in the world of mathematics and science and it is changing fast. Open AAI just released hundreds of AI generated mathematical results including claims that would have sounded completely impossible just a few months ago. I've been scrolling so much here. Sorry. And hope your eye...",
       "ai_summary": "[Summary API error]"
     },
     {
