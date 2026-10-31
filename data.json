@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-10-30T14:45:26.573045Z",
+  "last_updated": "2026-10-31T14:13:43.183255Z",
   "videos": [
+    {
+      "video_id": "CWdTBLsbaQs",
+      "title": "OpenAI Claims It Just Did The Impossible",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-10-30T15:57:16Z",
+      "url": "https://www.youtube.com/watch?v=CWdTBLsbaQs",
+      "transcript_preview": "I did not think this would happen in my lifetime. Let me try to explain. For many decades now, computer scientists have been thinking up devilishly difficult problems and found that trying to solve some of them takes incredibly long. Some of them would take a quadrillion years to solve by brute forc...",
+      "ai_summary": "[Summary API error]"
+    },
     {
       "video_id": "pryCaGv8wuo",
       "title": "DeepSeek's New AI Is An Absolute Monster",
@@ -8,15 +17,6 @@
       "published_at": "2026-10-28T17:32:40Z",
       "url": "https://www.youtube.com/watch?v=pryCaGv8wuo",
       "transcript_preview": "Good news everyone, a new DeepSeek AI system is available. Hooray. So, is this a small or a big jump in AI capabilities? Well, doesn't sound big because the previous version was 4.1 Flash and this one is called 4.1 Flash 1017. I know names. Only about 5 weeks have passed since the last version and t...",
-      "ai_summary": "[Summary API error]"
-    },
-    {
-      "video_id": "LWxX6vvHfrc",
-      "title": "Gemini 4 Argon Is Not What I Expected",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-10-19T08:49:21Z",
-      "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
-      "transcript_preview": "and Gemini 4 organ is finally here. I will try to show you less of the official demos and more that are out there in the wild done by you fellow scholars and I'll show you my experiments too which I found very surprising. I'll talk about the good, the bad, and the long. First, the good. People are e...",
       "ai_summary": "[Summary API error]"
     },
     {
