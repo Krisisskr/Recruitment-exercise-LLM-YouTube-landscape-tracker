@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-11-13T15:51:55.042919Z",
+  "last_updated": "2026-11-14T14:42:50.877256Z",
   "videos": [
+    {
+      "video_id": "x7iwI6WfWS0",
+      "title": "Funkiest Teams meeting EVER (Surprise video)",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-11-14T08:40:55Z",
+      "url": "https://www.youtube.com/watch?v=x7iwI6WfWS0",
+      "transcript_preview": "Heat. I fall downhill, but somehow I learn. I trip on numbers, I crash and I burn. Every mistake leaves a curve in my brain. I try again again. Wanted answers, sharpen fear, but all I get is noise and fear. I breathe, I stay, I don't retreat. I will my one tiny step. Not perfect. Jump better than ye...",
+      "ai_summary": "[Summary API error]"
+    },
     {
       "video_id": "gPNiuyYirfw",
       "title": "DeepMind’s AI Just Did The Impossible",
@@ -8,15 +17,6 @@
       "published_at": "2026-11-12T13:41:41Z",
       "url": "https://www.youtube.com/watch?v=gPNiuyYirfw",
       "transcript_preview": "Every day, billions of messages zip around across the internet, protected by thousands of lines of code that we are not entirely sure work perfectly. One little mistake and millions of private lives spill out at once. There is a mathematical algorithm to encrypt these messages and there is a piece o...",
-      "ai_summary": "[Summary API error]"
-    },
-    {
-      "video_id": "vug73goPJaM",
-      "title": "Is Software Over?",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-11-10T10:15:57Z",
-      "url": "https://www.youtube.com/watch?v=vug73goPJaM",
-      "transcript_preview": "I see some spicy videos and articles saying that software is over. We'll see if that is true. They say that because modern AI tools are so powerful that they can just look at a video game and reproduce it. Give you a playable version just by looking. And yes, hundreds of such AI assisted reverse eng...",
       "ai_summary": "[Summary API error]"
     },
     {
