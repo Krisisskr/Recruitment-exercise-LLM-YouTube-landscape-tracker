@@ -1,21 +1,21 @@
 {
-  "last_updated": "2026-11-16T17:48:33.976720Z",
+  "last_updated": "2026-11-17T17:18:00.750124Z",
   "videos": [
+    {
+      "video_id": "gl2U4fGTr6g",
+      "title": "OpenAI's New Breakthrough Is... Utter Chaos",
+      "channel_name": "Two Minute Papers",
+      "published_at": "2026-11-17T12:46:24Z",
+      "url": "https://www.youtube.com/watch?v=gl2U4fGTr6g",
+      "transcript_preview": "[Supadata quota exceeded]",
+      "ai_summary": "[No transcript available]"
+    },
     {
       "video_id": "x7iwI6WfWS0",
       "title": "AI Can Do Everything…Except This",
       "channel_name": "Two Minute Papers",
       "published_at": "2026-11-14T08:40:55Z",
       "url": "https://www.youtube.com/watch?v=x7iwI6WfWS0",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
-    },
-    {
-      "video_id": "gPNiuyYirfw",
-      "title": "DeepMind’s AI Just Did The Impossible",
-      "channel_name": "Two Minute Papers",
-      "published_at": "2026-11-12T13:41:41Z",
-      "url": "https://www.youtube.com/watch?v=gPNiuyYirfw",
       "transcript_preview": "[Supadata quota exceeded]",
       "ai_summary": "[No transcript available]"
     },
