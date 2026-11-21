@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-20T16:37:02.519386Z",
+  "last_updated": "2026-11-21T15:52:10.741884Z",
   "videos": [
     {
       "video_id": "Cy7Wz6Z4TWU",
@@ -7,8 +7,8 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-11-19T09:26:19Z",
       "url": "https://www.youtube.com/watch?v=Cy7Wz6Z4TWU",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "Your DNA contains roughly 3 billion letters, but reading them doesn't tell us everything about you. Hidden among them are millions of little molecular switches to control when and where your genes become active. And many diseases begin where the switches go wrong. And DeepMind's new AI technique, Al...",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "gl2U4fGTr6g",
@@ -16,8 +16,8 @@
       "channel_name": "Two Minute Papers",
       "published_at": "2026-11-17T12:46:24Z",
       "url": "https://www.youtube.com/watch?v=gl2U4fGTr6g",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "Everything around you, from distant galaxies to the atoms in your body, is governed by forces we don't fully understand. We have equations that describe the strong nuclear force with incredible accuracy. But there is a problem. We cannot prove that they don't fall apart when we zoom closely into the...",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "xHi8PUIVyoo",
@@ -25,8 +25,8 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2026-03-06T22:07:33Z",
       "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "Hello. Have you ever been in a situation where you're overhearing conversation and it dawns on you this person well intended is wrong about something minuscule but important to you and duty. The universe compels you to tell them why they're wrong. Watch this. I recycle plastic because it's good for ...",
+      "ai_summary": "[Summary API error]"
     },
     {
       "video_id": "Dr6jw-WAd9E",
@@ -34,8 +34,8 @@
       "channel_name": "Yannic Kilcher",
       "published_at": "2025-12-29T03:44:20Z",
       "url": "https://www.youtube.com/watch?v=Dr6jw-WAd9E",
-      "transcript_preview": "[Supadata quota exceeded]",
-      "ai_summary": "[No transcript available]"
+      "transcript_preview": "Cool. Hello everyone. Um, as is tradition, uh, we're doing a Minecraft live stream for the holidays. Um, because it's fun. So, uh, yeah, keep in mind I am absolutely terrible at Minecraft. This is, so this is not a like, uh, a demonstration of skill or anything like this. Um, it's just, it's just fu...",
+      "ai_summary": "[Summary API error]"
     }
   ]
 }
